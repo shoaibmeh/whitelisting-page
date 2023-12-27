@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Recruitment portal</title>
+    <link rel="icon" href="./assets/logo-white.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script defer src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.4/dist/sweetalert2.all.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <div class="background">
+
+        <!-- navbar section -->
+
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg_light fixed-top" id="bg_light">
+                <a class="navbar-brand mr-lg-auto" href="/" target="new"> <img src="assets/logo-white.png"
+                        alt="Company Logo" class='logo_img' /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="./index.html">HR
+                                Admin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="./index.html">Admin Portal</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar end -->
+
+        <div class="join_the_team_text" data-aos="zoom-in" data-aos-duration="1000">
+            Join the Team!
+        </div>
+        <center>
+            <a class="button " href=" #open_form" data-aos="fade-right" data-aos-duration="1000">
+                Apply Now
+            </a>
+        </center>
+    </div>
+
+    <!-- header end------------- -->
+
+    <div class="why_us" data-aos="fade-up" data-aos-duration="1500">
+        <div class="heading">
+            Why Us
+        </div>
+        <div class="why_us_text_area">
+            Demo Investments is Pakistan’s largest growing shariah compliant Asset Management Company. We believe
+            in growing and empowering our employees with ample learning opportunities to the journey of success! If you
+            have the drive, passion and skills to be part of Demo’s successful growing network, then apply to the
+            available positions and be part of success story.
+        </div>
+    </div>
+
+    <!-- jobs -->
+
+    <div class="why_us">
+        <div class="heading">
+            Job Openings
+        </div>
+
+        <!-- 1st jobb.................... -->
+
+        <div class="job_opening_main">
+            <div class="job_name" data-aos="fade-up" data-aos-duration="1000">
+                <span onclick="handleJobDetailsDiv('NET_Backend_Developer');">.NET Backend Developer</span>
+                <a href="#open_form"><span class="apply_now_button" onclick="handle('NET_Backend_Developer');">Apply Now
+                    </span></a>
+            </div>
+
+            <div class="job_details" id="NET_Backend_Developer" style="display: none;">
+                <div class="heading_job_positions">
+                    (Open positions: 1)
+                </div>
+                <div class="heading_job_description">
+                    Job Overview:
+                </div>
+                <div class="text_area_job_description">
+                    Timestream Management and Solutions FZCO is a start-up software and services company registered in
+                    Dubai Free zone with the aim of providing quality industry agnostic digital solutions to enable
+                    organizations streamline operations and improve decision making. We are looking for a talented .NET
+                    backend developer to join and be part of our growing development team.
+                </div>
+
+                <div class="heading_job_description">
+                    Roles & Responsibilities:
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>Familiar with Domain-driven Design (DDD) and microservice design patterns.</li>
+
+                        <li>Participate in the entire software development lifecycle, focusing on solution design,
+                            coding, deployment and debugging.</li>
+
+                    </ul>
+                </div>
+                <div class="heading_job_description">
+                    Job Requirements:
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>Minimally 4 years of software engineering experience across the full development lifecycle.
+                        </li>
+
+                        <li>Degree in relevant courses such as Computer Science/Software Engineering.</li>
+
+                        <li>Good working knowledge of CI/CD environments or pipelines.</li>
+
+                        <li>Familiar with cloud technologies (AWS or Azure)</li>
+
+                        <li>Other skills required: Redis Pub/Sub, Cache & Message Broker.</li>
+
+                        <li>Collaborative team member with good communication skills in English</li>
+                    </ul>
+                </div>
+                <div class="heading_job_description">
+                    What we offer
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>Remote flexible work for home</li>
+                        <li>Annual renewable foreign currency contract fixed in AED</li>
+                        <li>Ability to learn and work with international team of experts</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 2nd job..................... -->
+
+        <div class="job_opening_main">
+            <div class="job_name" data-aos="fade-up" data-aos-duration="1000">
+                <span onclick="handleJobDetailsDiv('Java_Backend_Developer');">Java Backend Developer</span>
+                <a href="#open_form"><span class="apply_now_button" onclick="handle('Java_Backend_Developer');">Apply
+                        Now</span> </a>
+            </div>
+
+            <div class="job_details" id="Java_Backend_Developer" style="display: none;">
+                <div class="heading_job_positions">
+                    (Open positions: 1)
+                </div>
+                <div class="heading_job_description">
+                    Job Overview:
+                </div>
+                <div class="text_area_job_description">
+                    ssssrt of our growing development team.
+                </div>
+
+                <div class="heading_job_description">
+                    Roles & Responsibilities:
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>Familiar with Domain-driven Design (DDD) and microservice design patterns.</li>
+                        <li>Participate in the entire software development lifecycle, focusing on solution design,
+                            coding, deployment and debugging.</li>
+                        <li>Brainstorm solutions and design robust, highly scalable applications that can withstand high
+                            traffic and high uptime with the team.</li>
+
+                    </ul>
+                </div>
+                <div class="heading_job_description">
+                    Job Requirements:
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>3 to 4 years of software engineering experience across the full development lifecycle.</li>
+                        <li>Degree in relevant courses such as Computer Science/Software Engineering.</li>
+                        <li>Thorough understanding of Computer Science fundamentals such as OOP, RESTful architectures,
+                            Design Patterns, Data Structures etc.</li>
+                        <li>Solid understanding of API gateways & API Design.</li>
+                        <li>Ability to write clean, readable Java code</li>
+
+                    </ul>
+                </div>
+                <div class="heading_job_description">
+                    What we offer
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>Remote flexible work for home</li>
+                        <li>Annual renewable foreign currency contract fixed in AED</li>
+                        <li>Ability to learn and work with international team of experts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3rd job//////////////////////////////////////////// -->
+
+        <div class="job_opening_main">
+            <div class="job_name" data-aos="fade-up" data-aos-duration="1000">
+                <span onclick="handleJobDetailsDiv('Marketing_Professional');">Marketing Professional</span>
+                <a href="#open_form"><span class="apply_now_button" onclick="handle('NET_Backend_Developer');">Apply Now
+                    </span></a>
+            </div>
+
+            <div class="job_details" id="Marketing_Professional" style="display: none;">
+                <div class="heading_job_positions">
+                    (Open positions: 1)
+                </div>
+                <div class="heading_job_description">
+                    Job Overview:
+                </div>
+                <div class="text_area_job_description">
+                    Timestream Management and Solutions FZCO is a start-up software and services company registered in
+                    Dubai Free zone with the aim of providing quality industry agnostic digital solutions to enable
+                    organizations streamline operations and improve decision making. We are looking for a talented .NET
+                    backend developer to join and be part of our growing development team.
+                </div>
+
+                <div class="heading_job_description">
+                    Roles & Responsibilities:
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>Familiar with Domain-driven Design (DDD) and microservice design patterns.</li>
+
+                        <li>Participate in the entire software development lifecycle, focusing on solution design,
+                            coding, deployment and debugging.</li>
+
+
+                    </ul>
+                </div>
+                <div class="heading_job_description">
+                    Job Requirements:
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>Minimally 4 years of software engineering experience across the full development lifecycle.
+                        </li>
+
+                        <li>Degree in relevant courses such as Computer Science/Software Engineering.</li>
+
+                        <li>Good working knowledge of CI/CD environments or pipelines.</li>
+
+                        <li>Familiar with cloud technologies (AWS or Azure)</li>
+
+                        <li>Other skills required: Redis Pub/Sub, Cache & Message Broker.</li>
+
+                        <li>Collaborative team member with good communication skills in English</li>
+                    </ul>
+                </div>
+                <div class="heading_job_description">
+                    What we offer
+                </div>
+                <div class="text_area_job_description">
+                    <ul>
+                        <li>Remote flexible work for home</li>
+                        <li>Annual renewable foreign currency contract fixed in AED</li>
+                        <li>Ability to learn and work with international team of experts</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- jobs end -->
+
+    <center>
+        <hr class="line_after_jobs" data-aos="zoom-in" data-aos-duration="1500" />
+    </center>
+
+    <!-- registeration area................. -->
+
+    <div class="service_use_line" data-aos="zoom-in" data-aos-duration="1500">
+        Register for your Job Assessment <br> <i style="font-weight: 600;">in just 10 minutes! </i>
+
+    </div>
+    <div id="open_form"></div>
+    <div class="form-section">
+        <div class="general_text">
+            <div class="text_under_heading_form">
+                Please complete the following steps to register with us.
+            </div>
+            <img src="./assets/all_icons_2.webp" alt="All Icons" class="all_icons_image_styling">
+        </div>
+
+        <!-- sign in & sign Up form/////////////////// -->
+
+        <div  class="form_register" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="form_login" id="login_form">
+                <div class="heading_in_form">
+                    Login
+                </div>
+                <div class="register_text" onclick="openRegisterForm();">
+                    Don't have an account? <span class="span_styling">Create</span> one now.
+                </div>
+                <form onsubmit="loginform(event);" class="login_form_spacing">
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            Email
+                        </label>
+                        <input type="text" name="email" class="input_styling short" required id="login_email" />
+                    </div>
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            Password
+                        </label>
+                        <input type="password" name="Password" class="input_styling short" required
+                            id="login_password" />
+                    </div>
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            Company Code
+                        </label>
+                        <input type="text" name="company_code" class="input_styling" id="login_company_code" required />
+                    </div>
+                    <div class="submit_button_style">
+                        <center>
+                            <input type="submit" name="submit" value="Login" class="submit_button" id="login_submit" />
+                            <div class="loading_style" id="loading_api">
+                                Loading..
+                            </div>
+                            <div class="forgot_text" id="forgot_button" onclick="forgotPassword();">
+                                Forgot password?
+                            </div>
+                            <div class="loading_style" id="loading_api2">
+                                Loading...
+                            </div>
+                        </center>
+
+                    </div>
+                </form>
+            </div>
+            <div id="register_form">
+                <div class="heading_in_form">
+                    Register
+                </div>
+                <div class="register_text" onclick="openLoginForm();">
+                    Already have an account? Log in <span class="span_styling">here.</span>
+                </div>
+                <!-- novalidate -->
+                <form onsubmit="registerform(event);">
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            Email
+                        </label>
+                        <input onkeyup="ValidateEmail(event)" type="email" name="email" class="input_styling short"
+                            required id="rec_reg_email" />
+
+                    </div>
+                    <p class="error" id="error-email"></p>
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            CNIC/ Passport No/ SSN
+                        </label>
+                        <input type="number" name="cnic" class="input_styling" id="rec_reg_cnic" required />
+                    </div>
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            Company Code
+                        </label>
+                        <input type="text" name="company_code" class="input_styling" id="company_code" required />
+                    </div>
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            Mobile No
+                        </label>
+                        <input type="number" name="email" class="input_styling short" id="rec_reg_contact_no" />
+                    </div>
+                    <div class="form_inputs">
+                        <label for="password" class="label_styling">
+                            Password
+                        </label>
+                        <input onkeyup="validatePassword(event)" type="password" name="Password"
+                            class="input_styling short" required id="rec_reg_password" autocomplete="off" />
+                    </div>
+                    <p class="error" id="error-pwd-format">.</p>
+                    <div class="form_inputs" id="reg_confirm_passoword_border">
+                        <label for="confirmpass" class="label_styling">
+                            Confirm Password
+                        </label>
+                        <input onkeyup="matchPassword(event)" type="password" class="input_styling"
+                            id="rec_reg_confirm_passoword" required autocomplete="off" />
+                        <p class="error" id="error-pwd"></p>
+                    </div>
+                    <!-- <p class="failure_text" id="failure_text_pwd"><sup>*</sup>Password does not match</p> -->
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            Country
+                        </label>
+                        <select class="input_styling" id="rec_country_id" onchange="handleRecCountryChange(event);"
+                            name="rec_country" required>
+                            <option value="" disabled selected>Select Country</option>
+                        </select>
+                    </div>
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            State
+                        </label>
+                        <select class="input_styling" id='rec_state_id' onchange="handleRecStateChange(event);" required
+                            name="rec_state">
+                            <option value="" disabled selected hidden>Select State</option>
+                        </select>
+                    </div>
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            City
+                        </label>
+                        <select class="input_styling" id="rec_city_id" required name="rec_city">
+                            <option value="" disabled selected hidden>Select City</option>
+                        </select>
+                    </div>
+
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            How did you hear about us?
+                        </label>
+                        <select class="input_styling" id='rec_source_id' required name="rec_source">
+                            <option value="None" disabled selected hidden>Select Source</option>
+                            <option value="Email">Email</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Linkedin">Linkedin</option>
+                            <option value="Colleague/Friend">Colleague/Friend</option>
+                            <option value="Search Engine">Search Engine</option>
+                            <option value="Directly from our website">Directly from our website</option>
+
+                        </select>
+                    </div>
+
+
+                    <div class="form_inputs">
+                        <label class="label_styling">
+                            Resume/CV
+                        </label>
+                        <input type="file" name="cv_uploading" class="input_styling" id="file"
+                            accept=".pdf, .doc, .docx" />
+                    </div>
+                    <div class="submit_button_style">
+                        <center>
+                            <input type="submit" name="submit" value="Register" class="submit_button"
+                                id="register_submit" />
+                        </center>
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Section of Alert Boxes of Registration,Login and Failure Start -->
+    <center>
+        <div class="alert_box" id="reg_alert_box">
+            Thank you for registering with us!<br />
+            Please Login to Continue
+            <div class="close_button" onClick="regAlert();" id="close_reg_alert_form">Close</div>
+        </div>
+        <div class="alert_box" id="log_alert_box">
+            Login Successfull
+            <div class="close_button" onClick="logAlert();">Close</div>
+        </div>
+        <div class="alert_box" id="failure_alert">
+            Invalid Credentials!Pease try again.
+            <div class="close_button" onClick="failAlert();">Close</div>
+        </div>
+        <div class="alert_box_failure" id="failure_resume_alert">
+            You have successfully been registered but your resume did not upload properly. Please log in with your email
+            and password and upload your resume again.
+            <div class="close_button" onClick="failResumeAlert();">Close</div>
+        </div>
+    </center>
+    <!-- Section of Alert Boxes of Registration,Login and Failure End -->
+
+
+    <!-- Footer Section Start -->
+    
+    <div class="footer_div">
+        <a href="https://www.botnosticsolutions.ai/">
+            &#169; <span id="curent_year"></span> Botnostic Solutions (PVT) Ltd, All Rights Reserved
+        </a>
+    </div>
+
+    <!-- Footer Section End -->
+</body>
+
+</html>

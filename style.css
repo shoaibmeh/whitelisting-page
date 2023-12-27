@@ -1,0 +1,885 @@
+body {
+  font-family: "Arial" !important;
+  background-image: url("./assets/fabric-of-squares.png");
+  padding: 0%;
+  margin: 0%;
+}
+:root {
+  --heading_color: #232F3E;
+  --background: linear-gradient(41deg, #232F3E, #1e3755);
+}
+.background {
+  background: linear-gradient(rgba(35, 47, 62, 0.8), rgba(35, 47, 62, 0.8)), url("./assets/background.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  height: 100vh !important;
+}
+
+.logo_img {
+  width: 5rem;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+  margin-left: 15px;
+  transition: 0.5s;
+  padding: 5px 20px !important;
+}
+
+.nav-link:hover {
+  background-color: #232F3E;
+  border-radius: 20px;
+}
+
+.join_the_team_text {
+  font-size: 6rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 18%;
+  margin-bottom: 2%;
+}
+
+.button {
+  width: 22%;
+  font-size: 1.5rem;
+  border: 3px solid white;
+  background-color: white;
+  letter-spacing: 2px;
+  padding: 10px 0;
+  color: #232F3E;
+  font-weight: 600;
+  margin-left: 2%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button:hover {
+  backface-visibility: hidden;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  transition: all 280ms ease-in-out;
+  width: 20%;
+  text-decoration: none;
+  letter-spacing: 0px;
+  color: white !important;
+
+}
+
+.why_us {
+  margin: 5% 6%;
+}
+
+.heading {
+  font-size: 40px;
+  color: var(--heading_color);
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-weight: 600;
+  color: #232F3E;
+}
+
+.why_us_text_area {
+  margin-top: 1%;
+  margin-left: 4%;
+  font-size: 20px;
+  margin-right: 4%;
+  font-weight: 400;
+  line-height: 30px;
+  color: #232F3E;
+}
+
+.apply_now_button {
+  /* margin-left: 30%; */
+  /* background-color: #efbb43;
+      border-color: #efbb43;
+      border-radius: 4px;
+      padding: 1%;
+      cursor: pointer;
+      flex: 0.5;
+      text-align: center;
+      margin: 0 10% 0 0; */
+
+  background-color: white;
+  border-color: white;
+  color: var(--heading_color);
+  border-radius: 4px;
+  padding: 5% 15%;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  width: max-content;
+  clip-path: polygon(5% 0, 100% 0%, 95% 99%, 0% 100%);
+}
+
+.apply_now_button:hover {
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+.apply_now_button {
+  color: #232F3E;
+  background-color: white;
+  border-color: white;
+  border-radius: 4px;
+  padding: 5% 15%;
+  cursor: pointer;
+  float: right;
+  width: max-content;
+  clip-path: polygon(5% 0, 100% 0%, 95% 99%, 0% 100%);
+}
+
+.apply_now_button:hover {
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+.job_name {
+  background: #232F3E;
+  color: white;
+  padding: 2%;
+  font-size: 1.3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  clip-path: polygon(1% 0, 100% 0%, 99% 99%, 0% 100%);
+}
+
+.job_opening_main {
+  margin: 3% 4% 3% 4%;
+}
+
+.job_details {
+  background-color: white;
+  /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); */
+  padding: 2%;
+  margin: 2% 0% 2% 0%;
+  border-radius: 4px;
+  animation: slide-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.heading_job_description {
+  font-size: 1.5rem;
+  margin: 2% 0% 2% 0%;
+  font-weight: 400;
+}
+
+.text_area_job_description {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.line_after_jobs {
+  border: 2px solid #232F3E;
+  border-radius: 5px;
+  width: 400px;
+  position: relative;
+  top: 60px;
+}
+
+.service_use_line {
+  color: #232F3E;
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 6% 0%;
+}
+
+.form-section {
+  display: flex;
+  width: 100%;
+}
+
+.general_text {
+
+  width: 48%;
+  vertical-align: top;
+  font-size: 2rem;
+  color: white;
+  padding: 3% 3% 6% 1%;
+  background: #232F3E;
+}
+.form_register{
+  width: 48%;
+  margin-left: 2%;
+}
+
+.text_under_heading_form {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+}
+
+.all_icons_image_styling {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.heading_in_form {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--heading_color);
+  margin-left: 3%;
+  margin-top: -3%;
+}
+.form_login {
+  display: none;
+}
+
+.text_under_heading_form {
+  text-align: left;
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 3%;
+  font-weight: 600;
+}
+
+.register_text {
+  text-align: left;
+  font-size: 1rem;
+  color: var(--heading_color);
+  margin-left: 3%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login_form_spacing {
+  margin-top: 15%;
+}
+
+.register_tab {
+  /* border: 1px solid black; */
+  width: 50%;
+  float: right;
+  background-color: var(--heading_color);
+  color: white;
+  padding: 1%;
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.login_form {
+  display: none;
+}
+
+.register_form {
+  display: block;
+}
+
+.form_inputs {
+  width: 70%;
+  border-bottom: 2px solid rgb(198, 198, 198);
+  margin-left: 3%;
+}
+
+.label_styling {
+  width: 35% !important;
+  margin-top: 2%;
+  text-align: left;
+  color: var(--heading_color);
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-left: 3%;
+}
+
+.input_styling {
+  width: 60% !important;
+  margin-top: 2%;
+  padding: 1% 2%;
+  border-radius: 30px;
+
+  border: 2px solid transparent;
+  margin-left: -2%;
+  background-color: #ffffff !important;
+}
+
+/* .short{
+    margin-left: -12%;
+} */
+.input_styling:focus {
+  outline: transparent;
+}
+
+.failure_text {
+  font-size: 0.7rem;
+  color: red;
+  display: none;
+  margin-left: 3%;
+}
+
+.submit_button_style {
+  margin-top: 5%;
+  margin-left: -15%;
+}
+
+.submit_button {
+  background-color: var(--heading_color);
+  color: white;
+  border: 2px solid transparent;
+  font-size: 1.5rem;
+  padding: 1% 5% 1% 5%;
+  border-radius: 25px;
+}
+
+.submit_button:hover {
+  background-color: white;
+  color: var(--heading_color);
+  border-color: var(--heading_color);
+}
+
+.error {
+  color: red;
+  font-family: 'Varta', sans-serif;
+  font-size: small;
+  text-align: left;
+  margin: 5px 0 0 3%;
+}
+.span_styling {
+  text-decoration: underline;
+  font-weight: 700;
+}
+.loading_style {
+  display: none;
+}
+
+.footer_div {
+  color: white;
+  padding: 2%;
+  margin-top: 3%;
+  text-align: center;
+  background: #232F3E;
+  font-weight: 500;
+  font-size: small;
+}
+
+.alert_box {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  background-color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  font-size: 1.5rem;
+  color: #232F3E;
+  font-weight: 500;
+  display: none;
+  min-width: 400px;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.alert_box_failure {
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  background-color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  font-size: 1.5rem;
+  color: #232F3E;
+  font-weight: 500;
+  display: none;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.close_button {
+  background-color: #232F3E;
+  color: white;
+  width: max-content;
+  padding: 1% 3% 1% 3%;
+  margin-left: 35%;
+  border-radius: 10px;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
+
+/* responsiveness starts from here//////// */
+
+@media only screen and (min-width: 1600px) {
+  .previous_btn {
+    left: -20%;
+  }
+
+  .next_btn {
+    right: -20%;
+  }
+
+  .header_wavy_div {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  #open_form {
+    position: absolute;
+    bottom: -185%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  #open_form {
+    position: absolute;
+    bottom: -200%;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  #open_form {
+    position: absolute;
+    bottom: -240%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+
+  .next_btn {
+    right: 50px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .alert_box {
+    left: 40%;
+    top: 40%;
+  }
+
+  .error {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .author_message {
+    padding: 2% 6% 2% 6%;
+  }
+
+  .previous_btn {
+    left: -5px;
+  }
+
+  .next_btn {
+    right: -5px;
+  }
+
+  .FlexContainerDiv {
+    width: 90%;
+  }
+
+  .formDiv {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .img_styling {
+    width: 160px;
+    height: 160px;
+  }
+
+  .align_img {
+    margin-left: 160px;
+  }
+
+  .illustration_area {
+    margin-top: 60px;
+  }
+
+  .job_title {
+    flex: 2.7;
+  }
+
+  .apply_now_button {
+    flex: 0.75;
+    left: 1%;
+  }
+
+  #open_form {
+    position: absolute;
+    bottom: -175%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .text_area {
+    font-size: 2rem;
+  }
+
+  .img_styling {
+    width: 120px;
+    height: 120px;
+  }
+
+  .align_img {
+    margin-left: 120px;
+  }
+
+  .general_text {
+    width: 100%;
+    min-height: max-content;
+  }
+  .form-section {
+    display: inline;
+    width: 100%;
+  }
+  .form_register{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .form_inputs {
+    width: 90%;
+  }
+
+  .form_area {
+    width: 90%;
+    margin-top: 3%;
+  }
+
+  .login,
+  .register {
+    min-height: 58px;
+  }
+
+  .illustration_area {
+    margin-top: 3%;
+  }
+
+  .register_text {
+    text-align: center;
+  }
+
+  .jump_to_div {
+    position: relative;
+    top: -310px;
+  }
+
+  .jump_to_div_reg {
+    bottom: -76%;
+  }
+
+  .login_form_spacing {
+    margin-top: 5%;
+  }
+
+  .previous_btn,
+  .next_btn {
+    display: none;
+  }
+
+  .company_logo_styling {
+    width: 100%;
+    top: 10px;
+  }
+
+  .job_name {
+    font-size: 1rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .alert_box {
+    left: 25%;
+    top: 25%;
+    min-width: 250px;
+  }
+
+  .slide_viewer {
+    height: 340px;
+  }
+
+  hr.line_after_jobs {
+    top: 0;
+    width: 50%;
+  }
+
+  .apply_now_button {
+    margin-left: 9%;
+    left: 1%;
+  }
+
+  #open_form {
+    position: absolute;
+    bottom: -170%;
+  }
+  .form-section {
+    display: inline;
+    width: 100%;
+  }
+  .form_register{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .general_text{
+    width: 100%;
+
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .join_the_team_text {
+    font-size: 3rem;
+    padding-top: 40%;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    min-height: 30px;
+    width: 50%;
+  }
+
+  .alert_box_failure {
+    left: 15%;
+    max-width: 300px;
+  }
+
+  .apply_now_button {
+    top: -2px;
+    left: 1%;
+  }
+  .form-section {
+    display: inline;
+    width: 100%;
+  }
+  .form_register{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .general_text{
+    width: 100%;
+
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .text_area {
+    font-size: 1.7rem;
+  }
+
+  .img_styling {
+    width: 100px;
+    height: 100px;
+  }
+  .form-section {
+    display: inline;
+    width: 100%;
+  }
+  .form_register{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .general_text{
+    width: 100%;
+
+  }
+
+  .align_img {
+    margin-left: 100px;
+  }
+
+  .previous_btn,
+  .next_btn {
+    display: none;
+  }
+
+  .author_message {
+    font-size: 1.1rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+    margin-top: 5%;
+  }
+
+  .jump_to_div_reg {
+    bottom: -66%;
+  }
+
+  .heading_job_description {
+    font-size: 1.3rem;
+  }
+
+  .text_area_job_description {
+    font-size: 1.1rem;
+  }
+  
+}
+
+@media only screen and (max-width: 550px) {
+  .form-section {
+    display: inline;
+    width: 100%;
+  }
+  .background {
+    height: 350px !important;
+  }
+  .join_the_team_text {
+    padding-top: 20%;
+    font-size: 1.5rem;
+  
+}
+  .form_register{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .general_text{
+    width: 100%;
+
+  }
+  .text_area {
+    font-size: 1.2rem;
+  }
+
+  .img_styling {
+    width: 60px;
+    height: 60px;
+  }
+
+  .align_img {
+    margin-left: 60px;
+  }
+
+  .login,
+  .register {
+    font-size: 1rem;
+  }
+  .form_register{
+    width: 100%;
+  }
+
+  .label_styling {
+    font-size: 0.65rem;
+  }
+
+  .submit_button_style {
+    margin-left: 5%;
+  }
+
+  .submit_button {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .login,
+  .register {
+    min-height: 38px;
+  }
+
+  .service_use_line {
+    font-size: 1.5rem;
+  }
+
+  .job_name {
+    font-size: 0.7rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f6f6f6;
+  border-radius: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--heading_color);
+  border-radius: 14px;
+}
+
+@media only screen and (max-width: 500px) {
+  .alert_box {
+    left: 20%;
+  }
+  .background {
+    height: 300px !important;
+  }
+  .join_the_team_text {
+    padding-top: 25%;
+    font-size: 1.5rem;
+  
+}
+.button {
+    
+  padding: 0px 0px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .button {
+    font-size: 1rem;
+  }
+  .background {
+    height: 250px !important;
+  }
+  .join_the_team_text {
+    padding-top: 30%;
+    font-size: 1.5rem;
+  
+}
+.button {
+    
+  padding: 0px 0px;
+}
+
+  .nav_bar_list {
+    text-align: right;
+    margin-top: 5%;
+    width: max-content;
+    margin-left: -40px;
+    font-size: 1rem;
+  }
+
+  .alert_box_failure {
+    left: 15%;
+    max-width: 250px;
+  }
+
+  .job_name {
+    font-size: 0.6rem;
+  }
+}
+
+.forgot_text {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--heading_color);
+  margin-top: 2%;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media only screen and (max-width: 320px) {
+  .background {
+    height: 250px !important;
+  }
+  .join_the_team_text {
+      padding-top: 30%;
+      font-size: 1.5rem;
+  }
+  .button {
+    
+    padding: 0px 0px;
+  }
+}

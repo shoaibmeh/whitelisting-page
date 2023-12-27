@@ -1,0 +1,974 @@
+ {
+   "Abasyn University": {
+       "sector":"private",
+       "district": ["Peshawar", "Islamabad"],
+    "discipline": [ "choice_Computer_Science", "choice_Software_Engineering", "choice_Telecommunication_and_Networks", "choice_Civil_Engineering", "choice_Electrical_Engineering", "choice_Business_Administration", "choice_Commerce", "choice_English", "choice_Pharmacy", "choice_Microbiology", "choice_Biotechnology", "choice_Medical_Laboratory_Technology", "choice_Dietetics_and_Nutritional_Sciences", "choice_Physical_Therapy", "choice_Education", "choice_Technology", "choice_Political_Science", "choice_International_Relations", "choice_Governance_and_Public_Policy", "choice_Psychology", "choice_Mass_Communication", "choice_Environmental_Sciences", "choice_Fashion_and_Design", "choice_Statistics", "choice_Mathematics", "choice_Physics", "choice_Management_Sciences", "choice_Engineering_Management", "choice_Project_Managment", "choice_Logistics_and_Supply_Chain_Management", "choice_Data_Sciences" ]
+    },
+  "Abbottabad University of Science and Technology (AUST)": {
+    "sector": "public",
+    "district": [ "Abbottabad" ],
+    "discipline": [ "choice_Chemistry", "choice_Pharmaceutical_Sciences", "choice_Computer_Science", "choice_Software_Engineering", "choice_Business_Administration", "choice_Business _Sciences", "choice_Pakistan_Studies", "choice_Geology", "choice_Mathematics", "choice_Microbiology", "choice_Economics", "choice_English", "choice_Physics", "choice_Zoology" ]
+  },
+  "Abdul Wali Khan University": {
+    "sector": "public",
+    "district": [ "Mardan" ],
+    "discipline":  ["choice_Arts_and_Humanities","choice_Agriculture","choice_Business_and_Economics","choice_Chemical_and_Life_Sciences","choice_Physical_and_Numerical_Sciences","choice_Social_Sciences"]
+  },
+   "Aga Khan University": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_Medicine","choice_Nursing","choice_Midwifery","choice_Arts_and_Sciences","choice_Media_and_Communication","choice_Education","choice_Health_Policy_Management","choice_Health_Professions_Education","choice_Epidemiology_and_Biostatistics","choice_Human_Development","choice_Dental_Hygiene"]
+    },
+   "Air University": {
+       "sector":"public",
+       "district": ["Islamabad","Multan"],
+       "discipline": ["choice_Electrical_Engineering","choice_Mechatronics_Engineering","choice_Computer_Engineering","choice_Accounting_Finance","choice_Business_Administration","choice_Aviation_Management","choice_English","choice_Avionics_Engineering","choice_Mechanical_Engineering","choice_Aerospace_Engineering","choice_Aerospace_Science","choice_Strategic_Studies","choice_Healthcare_Management","choice_Project_Management","choice_Tourism_and_Hospitality_Management","choice_Management_Sciences","choice_Basic_and_Applied_Sciences","choice_Physics","choice_Mathematics","choice_Social_Sciences","choice_Humanities","choice_Cyber_Security","choice_Information_Technology","choice_Telecommunication","choice_Electronics","choice_Education"]
+    },
+   "Al-Hamd Islamic University": {
+       "sector":"private",
+       "district": ["Quetta","Islamabad"],
+       "discipline": ["choice_Software_Engineering","choice_Information_Technology","choice_Computer_Science","choice_Accounting_Finance","choice_Business_Administration","choice_Education","choice_Commerce","choice_Islamic_Studies","choice_Urdu","choice_Economics","choice_International_Relations","choice_English","choice_Civil_Technology","choice_Electrical_Technology","choice_Electronic_Technology","choice_Fine_Arts","choice_History","Mass_Communication","choice_Pakistan_Studies","choice_Project_Management","choice_Supply_Chain_Management","choice_Social_Sciences"]
+    },
+   "Ali Institute of Education": {
+       "sector":"private",
+       "district": ["Lahore"],
+       "discipline": ["choice_Education","choice_Cambridge_English","choice_FA","choice_FSc","choice_ICS"]
+    },
+   "Allama Iqbal Open University": {
+       "sector":"public",
+       "district": ["Islamabad"],
+       "discipline": ["choice_Commerce","choice_Education","choice_Chemistry","choice_Environmental_Science","choice_Microbiology","choice_Botany","choice_Physics","choice_Statistics","choice_Mass_Communication","choice_Library_and_Information_Science","choice_International_Relations","choice_Arts","choice_Dars_e_Nizami","choice_Computer_Science","choice_Electronic_Technology","choice_Buisiness_Administration","choice_Finance_and_Accounting","choice_Mathemtics","choice_Tourism_Management","choice_Agricultural_Extension","choice_Arabic","choice_Economics","choice_Environmental_Design","Gender_and_Women_Studies","choice_Public_Administration","choice_Tv_Production","choice_Community_Health_and_Nutrition","choice_Management_Sciences","choice_Food_and_Nutrition","choice_Pakistani_Languages_and_Literature"]
+    },
+   "Bacha Khan University": {
+       "sector":"public",
+       "district": ["Charsada"],
+       "discipline": ["choice_English","choice_Education","choice_Chemistry","choice_Biotechnology","choice_Microbiology","choice_Mathematics","choice_Botany","choice_Mass_Communication","choice_Management_Science","choice_Sociology","choice_Agronomy","choice_Entomology","choice_Economics","choice_Business_Administration","choice_Computer_Science","choice_Electronics","choice_Geology","choice_GeoPhysics","choice_Human_Diet_and_Nutrition","choice_Arts","choice_Physics","choice_Psychology","choice_Zoology","choice_Poliical_Science","choice_Gender_Studies","choice_Pusto","choice_Plant_Breeding_and_Genetics"]
+    },
+   "Bahauddin Zakariya University": {
+       "sector":"public",
+       "district": ["Multan","Layyah"],
+       "discipline": ["choice_English","choice_Education","choice_History_and_Civilization_Studies","choice_Gender_Studies","choice_Pakistan_Studies","choice_Geography","choice_Political_Science","choice_International_relations","choice_Communication_Studies","choice_Applied_Psychology","choice_Philosophy","choice_Sports_sciences","choice_Molecular_Biology","choice_Physics","choice_Statistics","choice_Mathematics","choice_Botany","choice_Biochemistry","choice_Enviromental _Science","choice_Arabic","choice_Islamic_Studies","choice_Urdu","choice_Economics","choice_Saraiki","choice_Management_Science","choice_Banking_Finance","choice_Commerce","choice_Law","choice_Pharmacy","choice_Veterinary_Sciences","choice_Pathobiology","choice_Electrical _Engineering","choice_Mechanical_Engineering","choice_Civil_Engineering","choice_Computer_Engineering","choice_Architecture","choice_Textile","choice_Material_Engineering","choice_AGRICULTURE_SCIENCES","choice_Food_Nutrition","choice_Sociology","choice_Pure_and_Applied_Biology","choice_Chemical_Sciences","choice_Biotechnology","choice_Bio_Sciences","choice_Clinical_Sciences"]
+    },
+   "Bahria University": {
+       "sector":"public",
+       "district": ["Islamabad","Karachi","Lahore"],
+       "discipline": ["choice_Computer_Science","choice_Software_Engineering","choice_Earth_and_Environmental_Science","choice_Management_Science","choice_Media_Studies","choice_Professional_ Psychology","choice_Humnaities_and_Social_Sciences","choice_Economics","choice_Law","choice_Electrical _Engineering","choice_Computer_Engineering","choice_Medical_and_Dental_Sciences","choice_Maritime_Sciences"]
+    },
+   "Balochistan University of Engineering & Technology": {
+       "sector":"public",
+       "district": ["Khuzdar"],
+       "discipline": ["choice_Computer_Science","choice_Information_Technology","choice_Civil_Engineering","choice_Mechanical_Engineering","choice_Electrical_Engineering","choice_Chemistry","choice_English","choice_Economics","choice_Geology","choice_Islamic_studies","choice_Pakistan_Studies","choice_Basic_Sciences","choice_Computer_Systems_Engineering_and_Sciences","choice_"]
+    },
+   "Balochistan University of Information Technology, Engineering & Management Sciences": {
+       "sector":"public",
+       "district": ["Quetta"],
+       "discipline": ["choice_Computer_Engineering","choice_Telecommunication_Engineering","choice_Software_Engineering","choice_Computer_Science","choice_Electrical_and_Electronic_Engineering","choice_Information_Technology","choice_Civil_Engineering","choice_Petroleum_Gas_Engineering","choice_Mechanical_and_Aerospace_Engineering","choice_General_Engineering","choice_Chemical_Engineering","choice_Mining_Engineering","choice_Geological_Engineering","choice_Architecture","choice_Environmental_Engineering","choice_English","choice_Economics","choice_Fine_Arts","choice_Mass_Communication","choice_Business_and_Economics","choice_Psychology","choice_Management_Sciences","choice_Sociology","choice_Arts_and_Humanities","choice_PHYSICAL_SCIENCE","choice_Life_Sciences","choice_International_Relations","choice_Chemistry","choice_Social_Sciences","choice_BBA","choice_Biotechnology","choice_Microbiology"]
+    },
+   "Baqai Medical University": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_MBBS","choice_BDS","choice_PharmD","choice_Veterinary_Medicine","choice_Nursing","choice_Physical_Therapy","choice_Software_Engineering","choice_Bioinformatrics","choice_Medical_Technology","choice_Health_Management"]
+    },
+   "Barret Hodgson University": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_Microbiology","choice_Biochemistry","choice_Biomedical_Engineering","choice_Computer_Science","choice_Environmental_Science","choice_Bioscience","choice_Pharmacy","choice_Business_Administration","choice_Economics_And_Finance"]
+    },
+   "Beaconhouse National University": {
+       "sector":"private",
+       "district": ["Lahore"],
+       "discipline": ["choice_Visual_Communication","choice_Visual_Arts","choice_Textile_Studies","choice_Media_Studies","choice_Liberal_Studies","choice_Fashion_Design","choice_Jewellery_Design","choice_Architecture","choice_Mass_Communication","choice_Social_Sciences","choice_Business_Administration","choice_Economics","choice_Software_Engineering","choice_Computer_Science","choice_Applied_Psychology"]
+    },
+  "Benazir Bhutto Shaheed University Lyari": {
+    "sector": "public",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_Commerce", "choice_English", "choice_Education", "choice_Law", "choice_Economics", "choice_pharmacy", "choice_Business_Administration", "choice_Public_Administration", "choice_information_technology", "choice_Computer_Science" ]
+  },
+  "Benazir Bhutto Shaheed University of Technology and Skill Development": {
+    "sector": "public",
+    "district": [ "Khairpur" ],
+    "discipline": [ "choice_Civil_Engineering_Technology", "choice_Electrical_Engineering_Technology", "choice_Mechanical_Engineering_Technology", "choice_Electronic_Engineering_Technology" ]
+  },
+   "CECOS University of Information Technology & Emerging Sciences": {
+       "sector":"private",
+       "district": ["Peshawar"],
+       "discipline": ["choice_Civil_Engineering","choice_Electrical_Engineering","choice_Mechanical_Engineering","choice_Architecture","choice_Arts_and_Design","choice_Biotechnology","choice_DPT","choice_Medical_Lab_Technology","choice_Telecommunication_Systems","choice_Business_Administration","choice_Engineering_Technology","choice_Software_Engineering","choice_Computer_Science","choice_Applied_Psychology"]
+    },
+   "COMSATS Institute of Information Technology": {
+       "sector":"public",
+       "district": ["Islamabad","Abbottabad","Attock","Lahore","Wah","Vehari","Sahiwal"],
+       "discipline": ["choice_economics","choice_Electrical_Engineering","choice_Civil_Engineering","choice_Chemical_Engineering","choice_Mechanical_Engineering","choice_humanities","choice_Management_Science","choice_Earth_Sciences","choice_Statistics","choice_Developmental_Studies","choice_Environmental_Sciences","choice_Architecture_and_Design","choice_meterology","choice_bioscience","choice_Pharmacy","choice_Human_Infometrics","choice_mathematics","choice_Computer_Science","choice_Physics"]
+    },
+  "Capital University of Science & Technology": {
+    "sector": "public",
+    "district": [ "Bahawalur"],
+    "discipline": [ "choice_economics", "choice_Electrical_Engineering", "choice_Management_Science", "choice_Civil_Engineering", "choice_Mechanical_Engineering", "choice_bioscience", "choice_Microbiology", "choice_Biotechnology", "choice_accounting_finance", "choice_Psychology", "choice_Bio_Infometrics", "choice_Mathematics", "choice_Computer_Science", "choice_Software_Engineering", "choice_Pharmacy" ]
+  },
+  "Cholistan University Of Veterinary And Animal Sciences": {
+    "sector": "private",
+    "district": [ "Islamabad" ],
+    "discipline": [ "choice_Veterinary_Medicine", "choice_Applied_Microbiology", "choice_Medical_Laboratory_Technology", "choice_Animal_Sciences", "choice_Poultry_Sciences", "choice_Zoology", "choice_Biological_Sciences", "choice_Biochemistry", "choice_Food_Science_and_Technology" ]
+  },
+    "City University of Science and Information Technology": {
+       "sector":"private",
+       "district": ["Peshawar"],
+       "discipline": ["choice_computer_science","choice_information_technology","choice_Engineering","choice_Architecture","choice_Technology","choice_Medical_Laboratory_Technology","choice_Management_Science","choice_English","choice_Mathematics","choice_Education","choice_Humanities"]
+    },
+   "Commecs Institute of Business & Emerging Sciences": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_BBA"]
+    },
+   "DHA Suffa University": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_computer_science","choice_information_technology","choice_Mechanical_Engineering","choice_Electrical_Engineering","choice_BBA","choice_Accounting_Finance"]
+    },
+   "DOW University of Health Sciences": {
+       "sector":"public",
+       "district": ["Karachi"],
+       "discipline": ["choice_MBBS","choice_BDS","choice_Pharmacy","choice_Nursing","choice_Dental_Care_Professional","choice_Phisiotherapy","choice_BBA","choice_Medical_Technology","choice_Bio_Medical_Engineering","choice_NUTRITIONAL_SCIENCES","choice_Biotechnology","choice_radiology"]
+    },
+   "Dawood University of Engineering & Technology": {
+       "sector":"public",
+       "district": ["Karachi"],
+       "discipline": ["choice_Architecture","choice_Chemical_engineering","choice_Computer_Engineering","choice_Electronic_Engineering","choice_Energy_and_Environmental_Engineering","choice_Industrial_Engineering","choice_Metallury_and_Material_Engineering","choice_Petroleum_and_Gas_Engineering","choice_Telecommunications_Engineering"]
+    },
+   "Fatima Jinnah Medical University": {
+       "sector":"public",
+       "district": ["Lahore"],
+       "discipline": ["choice_medicine"]
+    },
+   "Fatima Jinnah Women University": {
+       "sector":"public",
+       "district": ["Rawalpindi"],
+       "discipline": ["choice_Behavioral_Science","choice_BBA","choice_Media_Studies","choice_Computer_Arts","choice_Computer_Science","choice_Defence_Studies","choice_Economics","choice_Education","choice_English","choice_Environmental_Science","choice_Fine_Arts","choice_Gender_Studies","choice_Islamic_Studies","choice_Mathematical_Sciences","choice_Software_Engineering","choice_Electronic_Engineering","choice_Anthropology","choice_Sociology","choice_Law","choice_Commerce","choice_Physics","choice_Urdu","choice_Public_Administration"]
+    },
+   "Fatima Jinnah Women University2": {
+       "sector":"public",
+       "district": ["Rawalpindi"],
+       "discipline": ["choice_Electrical_Engineering","choice_BBA","choice_Applied_Physics","choice_Commerce"]
+    },
+  "Federal Urdu University of Arts, Sciences & Technology": {
+    "sector": "public",
+    "district": [ "Islamabad", "Karachi" ],
+    "discipline": [ "choice_Behavioral_Science", "choice_BBA", "choice_Media_Studies", "choice_Arts", "choice_Science_and_Technology", "choice_Computer_Arts", "choice_Pharmacy", "choice_Computer_Science", "choice_Defence_Studies", "choice_Economics", "choice_Education", "choice_English", "choice_Environmental_Science", "choice_Fine_Arts", "choice_Gender_Studies", "choice_Islamic_Studies", "choice_Law", "choice_Commerce", "choice_Physics", "choice_Urdu", "choice_Public_Administration" ]
+  },
+  "Forman Christian College": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Management", "choice_Business", "choice_Information_Technology_and_Mathematics", "choice_Computer_Science", "choice_Statistics", "choice_Education", "choice_Natural_Sciences", "choice_Social_Science", "choice_Public_Policy_and_Governance" ]
+  },
+   "Foundation University": {
+       "sector":"private",
+       "district": ["Islamabad"],
+       "discipline": ["choice_electrical_engineering","choice_software_engineering","choice_Computer_Science","choice_Computer_Arts","choice_Tourism_and_Hospitality","choice_BBA","choice_economics_and_finance","choice_Technology_and_Innovation","choice_Psychology","choice_Media","choice_Education","choice_English"]
+    },
+   "GIFT University": {
+       "sector":"private",
+       "district": ["Gujranwala"],
+       "discipline": ["choice_accounting_finance","choice_business_economics","choice_Economic_Development_and_Policy_Study","choice_BBA","choice_commerce","choice_psychology","choice_international_relations","choice_mass_communication","choice_Education","choice_Islamic_studies","choice_Islamic_Business_and_Economics","choice_Islamic_Finance","choice_Urdu_Language_and_Literature","choice_Arabic_Language_and_Literature","choice_political_science","choice_sociology","choice_english","choice_Computer_science","choice_Data_Science","choice_Physics","choice_Mathematics","choice_Electrical_Engineering","choice_software_engineering","choice_home_economics","choice_Visual_Arts","choice_Graphic_Design","choice_textile_and_fashion"]
+    },
+   "Gambat Institute of Medical Sciences": {
+       "sector":"public",
+       "district": ["Khairpur"],
+       "discipline": ["choice_medical_sciences"]
+    },
+   "Gandhara University": {
+       "sector":"private",
+       "district": ["Peshawar"],
+       "discipline": ["choice_MBBS","choice_BDS","choice_MPH","choice_pharmacy","choice_nursing","choice_paramedics","choice_physiotherapy"]
+    },
+   "Ghazi University": {
+       "sector":"public",
+       "district": ["Dera Ghazi Khan"],
+       "discipline": ["choice_chemistry","choice_physics","choice_mathematics","choice_Computer_Science","choice_statistics","choice_zoology","choice_Botany","choice_Information_Technology","choice_islamic_studies","choice_urdu","choice_pakistan_studies","choice_english","choice_political_science","choice_agriculture_sciences","choice_BBA","choice_Economics","choice_education","choice_sociology"]
+    },
+   "Ghulam Ishaq Khan Institute of Engineering Sciences & Technology": {
+       "sector":"private",
+       "district": ["Swabi"],
+       "discipline": ["choice_computer_science","choice_Software_engineering","choice_Engineering_Sciences","choice_electrical_engineering","choice_mechanical_engineering","choice_management_sciences","choice_material_engineering","choice_chemical_engineering","choice_civil_engineering"]
+    },
+  "Gomal University": {
+    "sector": "public",
+    "district": [ "Dera Ismail Khan" ],
+    "discipline": [ "choice_chemistry", "choice_physics", "choice_mathematics", "choice_economics", "choice_statistics", "choice_Bioscience", "choice_Biotechnology", "choice_Communication_and_Media_Sciences", "choice_Computer_Science", "choice_arabic_and_islamic_studies", "choice_urdu", "choice_public_administration", "choice_english", "choice_agriculture_sciences", "choice_pharmacy", "choice_veterinary_and_animal_sciences", "choice_education", "choice_BBA", "choice_commerce", "choice_electrical_engineering", "choice_telecommunication_systems", "choice_Electronics", "choice_Environmental_Sciences", "choice_Food_Science_and_Technology", "choice_Home_Economics", "choice_Human_Diet_and_Nutrition", "choice_Law", "choice_Mass_Communication", "choice_Microbiology", "choice_Pakistan_studies", "choice_Political_Science", "choice_Public_Administration", "choice_Software", "choice_Zoology", "choice_Wildlife_Management", "choice_Plant_Sciences", "choice_Poultry_Sciences" ]
+  },
+  "Government College University": {
+    "sector": "public",
+    "district": [ "Faisalabad" ],
+    "discipline": [ "choice_Arts_and_Social_sciences", "choice_Economics_and_Management_Sciences,", "Engineering", "Islamic_and_Oriental_Learning", "choice_Life_Sciences", "Physical_Science", "choice_Pharmaceutical_Science" ]
+
+  },
+   "Government College University,Hyderabad": {
+       "sector":"public",
+       "district": ["Hyderabad"],
+       "discipline": ["choice_Arts","choice_Science"]
+    },
+  "Government College for Women University": {
+    "sector": "public",
+    "district": [ "Sialkot", "Faisalabad" ],
+    "discipline": [ "choice_chemistry", "choice_physics", "choice_mathematics", "choice_economics", "choice_Information_Technology", "choice_Zoology", "choice_Botany", "choice_Biology", "choice_Urdu", "choice_Applied_Psychology", "choice_Home_Economics_and_Fine_Arts", "choice_Islamic_Studies", "choice_statistics", "choice_Bioscience", "choice_history", "choice_political_science", "choice_english", "choice_computer_science", "choice_life_sciences", "choice_civil_engineering", "choice_education", "choice_BBA", "choice_commerce", "choice_electrical_engineering", "choice_chemical _engineering" ]
+  },
+  "Government Sadiq College Women University": {
+    "sector": "public",
+    "district": [ "Bahawalpur" ],
+    "discipline": [ "choice_Arts", "choice_Education", "choice_Sciences", "choice_Business_and_Management_Sciences", "choice_Economics", "choice_Management_Sciences", "choice_Applied_Psychology" ]
+  },
+  "Greenwich University": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_BBA", "choice_Economics_and_finance", "choice_economics", "choice_statistics", "choice_Bioscience", "choice_history", "choice_organizational_communication", "choice_education", "choice_tourism_and_hotel_management", "choice_information_systems", "choice_english_literature", "choice_education", "choice_mass_communication" ]
+  },
+  "Hitech University": {
+    "sector": "private",
+    "district": [ "Rawalpindi" ],
+    "discipline": [ "choice_Mechanical_Engineering", "choice_Electrical_Engineering", "choice_Computer_Engineering", "choice_Computer_Science", "choice_Islamic_Studies", "choice_Mathematics" ]
+  },
+  "Habib University": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_social_development_policy", "choice_communication_and_design", "choice_comparative_liberal_studies", "choice_languages_and_literature", "choice_electrical_engineering", "choice_computer _science" ]
+  },
+  "Hajvery University": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Commerce", "choice_Software_Engineering", "choice_English", "choice_Textile_Designing", "choice_Pharmacy", "choice_Business_Administration", "choice_Computer_Science", "choice_Economics", "choice_Electronics", "choice_Fashion_Design", "choice_Media_Sciences", "choice_Psychology", "choice_Physical_Therapy" ]
+  },
+   "Hamdard University": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_pharmacy","choice_management_sciences","choice_law","choice_education","choice_linguistics","choice_MBBS","choice_BDS","choice_english","choice_computer_science","choice_bio_sciences","choice_mechanical_engineering","choice_electronics_engineering","choice_electrical_engineering","choice_software _engineering"]
+    },
+  "Hazara University": {
+    "sector": "public",
+    "district": [ "Mansehra" ],
+    "discipline": [ "choice_arts_and_humanities", "choice_health_sciences", "choice_law", "choice_administrative_studies", "choice_natural_sciences", "choice_pure_sciences" ]
+  },
+  "Ilma University": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_Management_Sciences", "choice_Computer_Science", "choice_Science_and_Technology", "choice_Media_and_Design" ]
+  },
+  "Imperial College of Business Studies": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Allied_and_Health_Sciences", "choice_Computing_and_Information_Sciences", "choice_Engineering_and_Technology", "choice_Architecture_Arts_and_Design", "choice_English_Language_and_Literature", "choice_Business_Economics_and_Management_Sciences" ]
+  },
+  "Indus Valley School of Art & Architecture": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_architecture", "choice_interior_design", "choice_textile_design", "choice_fashion_design", "choice_communication_design", "choice_fine_art" ]
+  },
+  "Indus University": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_Electrical_Engineering", "choice_Computing", "choice_Sciences_and_Technologies", "choice_Business_Administration_and_Commerce", "choice_Art_and_Design" ]
+  },
+  "Information Technology University of the Punjab": {
+    "sector": "public",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Computer_Science", "choice_Computer_Engineering", "choice_Economics", "choice_Electrical", "choice_Technology_Management" ]
+  },
+   "Institute for Art and Culture": {
+       "sector":"private",
+       "district": ["Lahore"],
+       "discipline": ["choice_architecture","choice_interior_design","choice_textile_design","choice_graphic_design","choice_development_and_culture","choice_fine_art","choice_animation_design","choice_film_and_TV","choice_game_design"]
+    },
+   "Institute of Business Administration": {
+       "sector":"public",
+       "district": ["Karachi"],
+       "discipline": ["choice_BBA","choice_entrepreneurship","choice_computer_science","choice_economics_and_math","choice_accounting_finance","choice_social_sciences","choice_economics"]
+    },
+   "Institute of Business Management": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_business_management","choice_economics","choice_social_development","choice_computer_science","choice_information_systems","choice_electrical_engineering","choice_industrial_engineering"]
+    },
+  "Institute of Management Sciences": {
+    "sector": "public",
+    "district": [ "Peshawar" ],
+    "discipline": [ "choice_business_management", "choice_economics", "choice_social_sciences", "choice_computer_science", "choice_accounting_finance", "choice_software_engineering", "choice_BBA" ]
+  },
+  "Institute of Management Sciences,Lahore": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_BBA", "choice_Information_Technology", "choice_Computer_Science", "choice_Software_Engineering" ]
+  },
+   "Institute of Southern Punjab": {
+       "sector":"private",
+       "district": ["Multan"],
+       "discipline": ["choice_management_science","choice_economics","choice_social_sciences","choice_computer_science","choice_civil_engineering","choice_electrical_engineering","choice_english"]
+    },
+   "Institute of Space Technology": {
+       "sector":"public",
+       "district": ["Islamabad"],
+       "discipline": ["choice_aerospace_engineering","choice_avionics_engineering","choice_electrical_engineering","choice_material_science_and_engineering","choice_mechanical_engineering","choice_space_science"]
+    },
+  "International Islamic University": {
+    "sector": "public",
+    "district": [ "Islamabad" ],
+    "discipline": [ "choice_arabic", "choice_mathematics", "choice_statistics", "choice_physics", "choice_environmental_science", "choice_bio_technology_and_infometrics", "choice_electrical_engineering", "choice_mechanical_engineering", "choice_islamic_studies", "choice_urdu", "choice_management_sciences", "choice_technology", "choice_education", "choice_History_paksitan_studies", "choice_media_studies", "choice_politics_and_international_relations", "choice_psychology", "choice_sociology", "choice_anthropology", "choice_economics", "choice_shariah", "choice_law" ]
+  },
+  "Iqra National University": {
+    "sector": "private",
+    "district": [ "Peshawar" ],
+    "discipline": [ "choice_Civil_Engineering", "choice_Electrical_Engineering", "choice_Computer_Science", "choice_Business_Administration", "choice_Allied_Health_Sciences", "choice_Art_and_Design" ]
+  },
+   "Iqra University": {
+       "sector":"private",
+       "district": ["Islamabad","Karachi","Quetta"],
+       "discipline": ["choice_BBA","choice_Fashion_design","choice_textile_design","choice_media_science","choice_electronic_engineering","choice_computer_science","choice_software_engineering","choice_business_infometrics"]
+    },
+  "Islamia College University": {
+    "sector": "public",
+    "district": [ "Peshawar" ],
+    "discipline": [ "choice_arts", "choice_languages", "choice_social_sciences", "choice_religious_and_legal_studies", "choice_natural_sciences", "choice_computer_science", "choice_mathematics", "choice_electronics" ]
+  },
+  "Islamia University": {
+    "sector": "public",
+    "district": [ "Bahawalpur" ],
+    "discipline": [ "choice_Agriculture", "choice_Applied_Psychology", "choice_Arabic", "choice_Biochemistry", "choice_Botany", "choice_Business_Administration", "choice_Chemistry", "choice_Commerce", "choice_Computer_Engineering", "computer_Science", "choice_Economics", "choice_Education", "choice_Electronics", "choice_English", "choice_Environmental_Sciences", "choice_Gender_Studies", "choice_Fine_Arts", "choice_Geography", "choice_History", "choice_Information_Technology", "choice_International_Relations", "choice_Islamic_Studies", "choice_Law", "choice_Mathematics", "choice_Pakistan_Studies", "choice_Pharmacy", "choice_Physics", "choice_Political_Science", "choice_Public_Administration", "choice_Statistics", "choice_Telecommunication", "choice_Textile_Design", "choice_Urdu", "choice_Zoology" ]
+  },
+   "Jinnah Sindh Medical University": {
+       "sector":"public",
+       "district": ["Karachi"],
+       "discipline": ["choice_medicine","choice_business_management"]
+    },
+   "Isra University": {
+       "sector":"private",
+       "district": ["Hyderabad"],
+       "discipline": ["choice_MBBS","choice_Physical_Therapy","choice_Nursing","choice_ICT","choice_BBA","choice_software_engineering","choice_computer_science","choice_electrical_engineering"]
+    },
+   "Jinnah University for Women": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_social_sciences","choice_BBA","choice_commerce","choice_economics","choice_software_engineering","choice_computer_science","choice_pharmacy","choice_pure_and_natural_sciences"]
+    },
+  "KASB Institute of Technology": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_commerce", "choice_BBA", "choice_accounting_finance" ]
+  },
+  "Karachi Institute Of Economics & Technology": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_Managemnt_Sciences", "choice_Computing_and_Information_Sciences", "choice_Engineering", "choice_Media_and_Arts", "choice_Science_and_Technology" ]
+  },
+  "Karakurum International University": {
+    "sector": "public",
+    "district": [ "Gilgit", "Hunza", "Diamer (Chilas)", "Ghizer" ],
+    "discipline": [ "choice_behavioral_science", "choice_education", "choice_english_literature", "choice_software_engineering", "choice_computer_science", "choice_Inform", "choice_BBA", "choice_International_Relations", "choice_media_and_communication", "choice_agriculture_sciences", "choice_nutrition", "choice_biology", "choice_chemistry", "choice_environmental_science", "choice_Geology", "choice_mathematics", "choice_physics", "choice_disaster_management", "choice_mining_engineering" ]
+  },
+  "Khawaja Fareed University Of Engineering & Information Technology": {
+    "sector": "public",
+    "district": [ "Rahim Yar Khan" ],
+    "discipline": [ "choice_Engineering", "choice_Agricultural_Engineering", "choice_Chemical_Engineering", "choice_Civil_Engineering", "choice_Computer_Engineering", "choice_Electrical_Engineering", "choice_Mechanical_Engineering", "choice_CS_and_IT", "choice_Natural_Sciences", "choice_Management_Sciences_and_Humanities" ]
+  },
+   "Khushal Khan Khattak University": {
+       "sector":"public",
+       "district": ["Karak"],
+       "discipline": ["choice_bioinformatics","choice_geology","choice_english","choice_BBA","choice_computer_science","choice_library_and_information_science","choice_media_and_communication","choice_physics","choice_nanotechnology"]
+    },
+   "Khyber Medical University": {
+       "sector":"public",
+       "district": ["Peshawar"],
+       "discipline": ["choice_medical_science","choice_MBBS","choice_BDS"]
+    },
+   "King Edward Medical University": {
+       "sector":"public",
+       "district": ["Lahore"],
+       "discipline": ["choice_medicine"]
+    },
+   "Kinnaird College for Women": {
+       "sector":"public",
+       "district": ["Lahore"],
+       "discipline": ["choice_urdu","choice_fine_arts","choice_english","choice_natural_sciences","choice_applied_sciences","choice_computer_science","choice_economics","choice_BBA","choice_International_Relations","choice_media_studies","choice_psychology","choice_political_science","choice_geography","choice_accounting_finance"]
+    },
+  "Kohat University of Science and Technology": {
+    "sector": "public",
+    "district": [ "Kohat" ],
+    "discipline": [ "choice_physical_science", "choice_numerical_science", "choice_bio_sciences", "choice_social_sciences" ]
+  },
+  "Lahore College For Women University": {
+    "sector": "public",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Natural_Sciences", "choice_Engineering_and_Technology", "choice_Humanities_and_Social_Sciences", "choice_Education", "choice_Management_and_Administrative_Sciences", "choice_Pharmacy", "choice_Leadership_and_Learning", "choice_Design_and_Visual_Arts", "choice_Languages_and_Culture" ]
+  },
+  "Lahore Garrison University": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Biology", "choice_Chemistry", "choice_Mathematics", "choice_Physics", "choice_Geography", "choice_Statistics", "choice_Psychology", "choice_Business_Management", "choice_Commerce", "choice_Economics", "choice_Education", "choice_Home_Economics", "choice_Islamic_Studies", "choice_Mass_Communication", "choice_International_Relations", "choice_Computer_Sciences", "choice_English", "choice_Urdu" ]
+  },
+  "Lahore Leads University": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Software_Engineering", "choice_Computer_Engineering", "choice_Information_Technology", "choice_BBA", "choice_Media_and_Mass", "choice_LLB", "choice_Mathematics", "choice_Education", "choice_English", "choice_Islmamic_Studies", "choice_Sports_Sciences", "choice_Economics", "choice_Sociology", "choice_Psychology", "choice_International_Relations" ]
+  },
+   "Lahore School of Economics": {
+       "sector":"private",
+       "district": ["Lahore"],
+       "discipline": ["choice_economics_and_finance","choice_economics_and_business_management","choice_economics_and_political_sciences","choice_economics_and_marketing","choice_economics_and_environmental_policies","choice_economics_and_math_statistics","choice_economics_and_social_science","choice_BBA","choice_political_science","choice_english"]
+    },
+   "Lahore University of Management Sciences": {
+       "sector":"private",
+       "district": ["Lahore"],
+       "discipline": ["choice_economics","choice_management_sciences","choice_accounting_finance","choice_economics_and_political","choice_anthropology","choice_political_science","choice_economics_and_math","choice_history","choice_biology","choice_chemistry","choice_english","choice_electrical_engineering","choice_mathematics","choice_physics","choice_law"]
+    },
+   "Lasbela University of Agriculture, Water & Marine Sciences": {
+       "sector":"public",
+       "district": ["Lasbela"],
+       "discipline": ["choice_agriculture","choice_marine_sciences","choice_economics","choice_water_resource_management","choice_english","choice_computer_science","choice_geology","choice_environmental_science","choice_BBA","choice_education"]
+    },
+   "Liaquat University of Medical & Health Sciences": {
+       "sector":"public",
+       "district": ["Jamshoro"],
+       "discipline": ["choice_medicine","choice_health_sciences"]
+    },
+  "Mehran University of Engineering & Technology": {
+    "sector": "public",
+    "district": [ "Jamshoro", "Khairpur" ],
+    "discipline": [ "choice_architecture", "choice_civil_engineering", "choice_electrical_engineering", "choice_computer_engineering", "choice_engineering", "choice_technology" ]
+  },
+  "Minhaj University": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Computer_Science_and_Information_Technology", "choice_Basic_Sciences_Mathematics_and_Statistics", "choice_Economics_and_Management_Sciences", "choice_Social_Sciences", "choice_Humanities", "choice_Languages", "choice_Islamic_studies", "choice_Engineering", "choice_Health_Sciences" ]
+  },
+   "Mirpur University of Science & Technology": {
+       "sector":"public",
+       "district": ["Mirpur"],
+       "discipline": ["choice_computer_systems_engineering","choice_civil_engineering","choice_electrical_engineering","choice_software_engineering","choice_pure_and_natural_sciences","choice_BBA","choice_english","choice_islamic_studies","choice_home_economics","choice_law","choice_education"]
+    },
+   "Mohammad Ali Jinnah University": {
+       "sector":"private",
+       "district": ["Karachi","Lahore","Quetta"],
+       "discipline": ["choice_computer_science","choice_bioscience",
+           "choice_electrical_engineering","choice_software_engineering","choice_BBA","choice_english","choice_islamic_studies","choice_accounting_finance"]
+    },
+  " Mohi-Ud-Din Islamic University": {
+    "sector": "private",
+    "district": [ "Nerian Sharif" ],
+    "discipline": [ "choice_Mathematics", "choice_Chemistry", "choice_Biotechnology", "choice_CS_and_IT", "choice_Location", "choice_education", "choice_Business_Administration", "choice_Botany", "choice_Islamic Studies", "choice_English, Health_and_Physical", "choice_Veterinary_and_choice", "choice_English", "choice_Law", "choice_Business_administration", "choice_Education", "choice_LLB" ]
+  },
+
+  "Muhammad Nawaz Shareef University Of Agriculture": {
+    "sector": "public",
+    "district": [ "Multan" ],
+    "discipline": [ "choice_Social_Sciences_and_Humanities", "choice_Agriculture_and_Environmental_Sciences", "choice_Veterinary_and_Animal_Sciences", "choice_Agricultural_Bio_Systems_Engineering_and_Technology" ]
+  },
+  "Muhammad Nawaz Sharif University Of  Engineering & Technology": {
+    "sector": "public",
+    "district": [ "Multan" ],
+    "discipline": [ "choice_Chemical_Engineering", "choice_Electrical_Engineering", "choice_Civil_Engineering_Technology", "choice_Mechanical_Engineering_Technology", "choice_Computer_Science", "choice_Business_Administration", "choice_Mathematics", "choice_Physics" ]
+  },
+  " Muslim Youth University": {
+    "sector": "private",
+    "district": [ "Islamabad" ],
+    "discipline": [ "choice_Electrical_Engineering", "choice_Civil_Engineer", "choice_Computer_Science", "choice_International_Relations" ]
+  },
+  "NED University of Engineering & Technology": {
+    "sector": "public",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_engineering", "choice_civil_engineering", "choice_construction_managemnt", "choice_water_resource_management", "choice_urban_engineering", "choice_petroleum_engineering", "choice_architecture", "choice_development_studies", "choice_mechanical_engineering", "choice_textile_engineering", "choice_computer_science", "choice_electrical_engineering", "choice_chemical_engineering", "choice_natural_sciences", "choice_humanities" ]
+  },
+  "NFC Institute Of Engineering & Technology": {
+    "sector": "public",
+    "district": [ "Multan" ],
+    "discipline": [ "choice_Architecture", "choice_Biomedical_Technology", "choice_Business_Administration", "choice_Chemical_Engineering", "choice_Civil_Engineering", "choice_Computer_Science", "choice_Electrical_Technology", "choice_Environmental_Engineering", "choice_Mechanical_Engineering", "choice_Mechanical_Technology", "choice_Petroleum_and_Gas", "choice_Civil_Technology", "choice_Chemical_Technology" ]
+  },
+  "Namal institute, Mianwali": {
+    "sector": "private",
+    "district": [ "Mianwali" ],
+    "discipline": [ "choice_Computer_Science", "choice_Electrical_Engineering", "choice_Business_Administration" ]
+  },
+  "National College of Arts": {
+    "sector": "public",
+    "district": [ "Lahore", "Rawalpindi" ],
+    "discipline": [ "choice_fine_arts", "choice_design", "choice_architecture", "choice_film_and_TV", "choice_musicology", "choice_cultural_studies" ]
+  },
+  "National College Of Business Administration & Economics": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Business_Administration", "choice_Social_Sciences", "choice_Computer_Sciences" ]
+  },
+  "National Defense University": {
+    "sector": "public",
+    "district": [ "Islamabad" ],
+    "discipline": [ "choice_strategic_studies", "choice_contemporary_studies" ]
+  },
+  "National Textile University": {
+    "sector": "public",
+    "district": [ "Faisalabad" ],
+    "discipline": [ "choice_Textile_Engineering", "choice_Textile_Technology", "choice_Apparel_Merchandizing", "choice_Polymer_Engineering", "choice_Software_Engineering", "choice_Computer_Science", "choice_Business_Administration", "choice_Textile_Management_and_Marketing", "choice_Textile_Design_and_Technology", "choice_Fashion_Design_Technology" ]
+  },
+  "National University of Computer & Emerging Sciences": {
+    "sector": "private",
+    "district": [ "Islamabad", "Lahore", "Karachi", "Peshawar", "Chiniot" ],
+    "discipline": [ "choice_BBA", "choice_accounting_finance", "choice_Computer_Science", "choice_civil_engineering", "choice_electrical_engineering" ]
+  },
+  "National University of Medical Sciences": {
+    "sector": "public",
+    "district": [ "Rawalpindi" ],
+    "discipline": [ "choice_MBBS", "choice_BDS", "choice_Nursing", "choice_Medical_Laboratory_Technology", "choice_Cardiac_Perfusion", "choice_Social_Sciences_of_Health", "choice_Medical_Imaging_Technology", "choice_Biological_Sciences" ]
+  },
+   "National University of Modern Languages": {
+       "sector":"public",
+       "district": ["Islamabad","Lahore","Peshawar","Faisalabad","Multan","Karachi","Hyderabad","Quetta"],
+       "discipline": ["choice_BBA","choice_accounting_finance","choice_software_engineering","choice_languages","choice_electrical_engineering","choice_education","choice_public_administration"]
+    },
+  "National University of Sciences & Technology": {
+    "sector": "public",
+    "district": [ "Islamabad", "Rawalpindi", "Karachi", "Risalpur" ],
+    "discipline": [ "choice_Computer_Science", "choice_Software_Engineering", "choice_geoinformatics_engineering", "choice_Civil_Engineering", "choice_Electrical_Engineering", "choice_Business_Administration", "choice_chemical_engineering", "choice_material_engineering", "choice_mechanical_engineering", "choice_accounting_finance", "choice_economics", "choice_mass_communication", "choice_psychology", "choice_mathematics", "choice_Physics", "choice_chemistry", "choice_Public_administration", "choice_architecture", "choice_industrial_design", "choice_applied_biosciences" ]
+  },
+  "National University Of Technology (Nutech), Islamabad": {
+    "sector": "public",
+    "district": [ "Islamabad" ],
+    "discipline": [ "choice_Engineering_Technology", "choice_Information_Technology", "choice_Applied_Sciences_and_Humanities" ]
+  },
+  "Nazeer Hussain University": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_Architecture_and_the_Built_Environment", "choice_Business_and_Management_Studies", "choice_Pharmacy", "choice_Engineering_Practices_and_Sciences", "choice_Media_Sciences", "choice_Education_and_Social Sciences" ]
+  },
+  "Newport Institute Of Communications & Economics": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_Business_Administration", "choice_Computer_Sciences", "choice_Education", "choice_Commerce", "choice_Mechanical_Engineering_Technology", "choice_Civil_Engineering_Technology", "choice_Electronics_Engineering_Technology", "choice_Electrical_Engineering_Technology" ]
+  },
+  "Nishtar Medical University Multan": {
+    "sector": "public",
+    "district": [ "Multan" ],
+    "discipline": [ "choice_MBBS", "choice_BDS", "choice_Nursing", "choice_Medical_Laboratory_Technology", "choice_Medical_Imaging_Technology", "choice_Optometry_and_Orthoptics" ]
+  },
+  "Nothern University": {
+    "sector": "private",
+    "district": [ "Nowshehra" ],
+    "discipline": [ "choice_Engineering_and_IT", "choice_Arts_and_Social_Sciences", "choice_Administrative_Sciences", "choice_Sciences" ]
+  },
+  "Nur International University": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Economics", "choice_BBA", "choice_Nutritional_Sciences", "choice_Speech_and_Language_Pathology", "choice_Medical_Lab_Technology", "choice_Doctor_of_Physical_Therapy", "choice_Biochemistry", "choice_Applied_Psychology" ]
+  },
+   "Pakistan Institute of Development Economics (PIDE)": {
+       "sector":"public",
+       "district": ["Islamabad"],
+       "discipline": ["choice_masters_programs_in_Economics","choice_masters_programs_in_Development_studies","choice_MBA"]
+    },
+   "Pakistan Institute of Engineering & Applied Sciences": {
+       "sector":"public",
+       "district": ["Islamabad"],
+       "discipline": ["choice_Computer_Science","choice_Software_Engineering","choice_Electrical_Engineering","choice_chemical_engineering","choice_material_engineering","choice_mechanical_engineering","choice_communication_and_management_sciences","choice_medical_science","choice_chemistry","choice_nuclear_engineering","choice_applied_math"]
+    },
+   "Pakistan Institute of Fashion & Design": {
+       "sector":"public",
+       "district": ["Lahore"],
+       "discipline": ["choice_fashion_design","choice_fashion_marketing","choice_textile_design","choice_jewellery_design","choice_furniture_design","choice_leather_accessories_and_footwear","choice_ceramics _and_glass_design"]
+    },
+   "Pakistan Military Academy": {
+       "sector":"public",
+       "district": ["Abbottabad"],
+       "discipline": ["choice_military"]
+    },
+   "Pakistan Naval Academy": {
+       "sector":"public",
+       "district": ["Karachi"],
+       "discipline": ["choice_military"]
+    },
+   "Peoples University of Medical & Health Sciences for Women": {
+       "sector":"public",
+       "district": ["Nawabshah"],
+       "discipline": ["choice_medical_Science","choice_health_sciences"]
+    },
+  "Pir Mehr Ali Shah Arid Agriculture University": {
+    "sector": "public",
+    "district": [ "Rawalpindi" ],
+    "discipline": [ "choice_food_and_crop_sciences", "choice_forestry_and_wildlife_management", "choice_veterinary_and_animal_sciences", "choice_agriculture_engineering_and_technology", "choice_social_sciences", "choice_botany", "choice_zoology", "choice_economics", "choice_Anthropology", "choice_mathematics", "choice_biochemistry", "choice_biotechnology", "choice_information_technology", "choice_management_sciences", "choice_geoinfomatrics" ]
+  },
+  "Preston University": {
+    "sector": "private",
+    "district": [ "Karachi", "Kohat" ],
+    "discipline": [ "choice_Business_Administration", "choice_Computer_Science", "choice_Industry_and_Technology", "choice_Natural_and_Applied_Sciences", "choice_Social_Sciences", "choice_Education", "choice_Nano_Science_and_Technology" ]
+  },
+  "Punjab Tianjin University of Technology, Lahore": {
+    "sector": "public",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_textile_engineering", "choice_fashion_design", "choice_mechanical_engineering", "choice_electrical_engineering", "choice_automobile_engineering", "choice_civil_engineering", "choice_architecture" ]
+  },
+  "Qarshi University": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Computer_Science", "choice_Commerce", "choice_Eastern_Medicine_and_Surgery", "choice_Management_Sciences","choice_Mathematics","choice_Information_Technology" ]
+  },
+   "Quaid-e-Awam University of Engineering, Sciences & Technology": {
+       "sector":"public",
+       "district": ["Nawabshah","Larkana"],
+       "discipline": ["choice_computer_engineering","choice_electronic_engineering","choice_mechanical_engineering","choice_electrical_engineering","choice_energy_and_environment_engineering","choice_civil_engineering","choice_telecommunication_engineering","choice_information_technology","choice_computer_science","choice_math_and_statistics"]
+    },
+  "Quaid-i-Azam University": {
+    "sector": "public",
+    "district": [ "Islamabad" ],
+    "discipline": [ "choice_computer_engineering", "choice_chemistry", "choice_electronics", "choice_statistics", "choice_earth_science", "choice_physics", "choice_biological_science", "choice_information_technology", "choice_computer_science", "choice_mathematics", "choice_pharmaceutical_science", "choice_economics", "choice_management_science", "choice_politics_and_International_Relations", "choice_law" ]
+  },
+  "Qurtaba University Of Science & Information Technology": {
+    "sector": "private",
+    "district": [ "Dera Ismail Khan" ],
+    "discipline": [ "choice_Management_Sciences", "choice_Law", "choice_Physical_and_Numerical_Sciences", "choice_Chemical_and_Life_Sciences", "choice_IR_and_Political_Science", "choice_Linguistic_Literature_and_Religious_Studies", "choice_Education", "choice_Engineering" ]
+  },
+   "Rawalpindi Medical University": {
+       "sector":"public",
+       "district": ["Rawalpindi"],
+       "discipline": ["choice_MBBS","choice_Nursing","choice_Allied_sciences"]
+    },
+   "Riphah International University": {
+       "sector":"private",
+       "district": ["Islamabad","Lahore","Faisalabad"],
+       "discipline": ["choice_MBBS","choice_BDS","choice_Media_sciences","choice_management_sciences","choice_computer_science","choice_software_engineering","choice_biomedical_engineering","choice_electrical_engineering","choice_mathematics","choice_physics","choice_english","choice_applied_psychology","choice_physical_therapy","choice_pharmacy"]
+    },
+   "Sardar Bahadur Khan Women University": {
+       "sector":"public",
+       "district": ["Quetta"],
+       "discipline": ["choice_economics","choice_sociology","choice_Media_journalism","choice_political_sciences","choice_pakistan_studies","choice_islamiat","choice_urdu","choice_gender_studies","choice_mathematics","choice_chemistry","choice_zoology","choice_english","choice_education","choice_environmental_science","choice_fine_arts","choice_commerce","choice_botany","choice_psychology","choice_microbiology","choice_physics","choice_social_work","choice_Computer_science","choice_information_technology","choice_biotechnology","choice_BBA","choice_Public_administration"]
+    },
+   "Sarhad University of Science & Information Technology": {
+       "sector":"private",
+       "district": ["Peshawar"],
+       "discipline": ["choice_economics","choice_art_and_design","choice_education","choice_sports_sciences","choice_library_and_information_science","choice_pharmacy","choice_urdu","choice_biological_science","choice_computer_science","choice_chemistry","choice_civil_engineering","choice_mechanical_engineering","choice_electrical_engineering","choice_technologies","choice_BBA"]
+    },
+  "Shah Abdul Latif University": {
+    "sector": "public",
+    "district": [ "Khairpur", "Shikarpur" ],
+    "discipline": [ "choice_economics", "choice_english", "choice_languages", "choice_natural_sciences", "choice_PHYSICAL_SCIENCE", "choice_pharmacy", "choice_urdu", "choice_social_sciences", "choice_computer_science", "choice_chemistry", "choice_education", "choice_management_science", "choice_BBA" ]
+  },
+  "Shaheed Benazir Bhutto City University": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_Commerce", "choice_Mechanicsl_Technology", "choice_Business_administration", "choice_Computer_Science", "choice_Education", "choice_Textile_Technology", "choice_Fashion_and_Textile_Design", "choice_Electrical_and_Electronics_Technology", "choice_Software_Engineering" ]
+  },
+  "Shaheed Benazir Bhutto Dewan University": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_Agricultural_Economics", "choice_Business_administration", "choice_Commerce", "choice_Computer_Science", "choice_Economics_and_finance", "choice_Education", "choice_Mass_Communication", "choice_Fashion_and_Design", "choice_Media_Studies", "choice_Occupational_Therapy", "choice_Pharmacy", "choice_Physiotherapy", "choice_Eastern_Medicine_and_Surgery" ]
+  },
+  "Shaheed Benazir Bhutto University": {
+    "sector": "public",
+    "district": [ "Upper Dir", "Naushahro Feroze", "Wari" ],
+    "discipline": [ "choice_agriculture", "choice_animal_science", "choice_biotechnology", "choice_botany", "choice_english", "choice_environmental_science", "choice_forestry", "choice_geology", "choice_islamiat", "choice_computer_science", "choice_chemistry", "choice_law", "choice_management_sciences", "choice_pharmacy", "choice_sociology", "choice_zoology", "choice_education", "choice_social_work" ]
+  },
+  "Shaheed Benazir Bhutto University Of Veterinary & Animal Sciences": {
+    "sector": "public",
+    "district": [ "Nawabshah" ],
+    "discipline": [ "choice_Veterinary_Medicine" ]
+  },
+  "Shaheed Benazir Bhutto University, Shaheed Benazirabad": {
+    "sector": "public",
+    "district": [ "Nawabshah" ],
+    "discipline":["choice_Science_and_Technology","choice_Social_Sciences"]
+  },
+   "Shaheed Benazir Bhutto Women University": {
+       "sector":"public",
+       "district": ["Peshawar"],
+       "discipline": ["choice_bioinformatics","choice_microbiology","choice_chemistry","choice_psychology","choice_economics","choice_biochemistry","choice_computer_science","choice_physics","choice_fine_arts","choice_fashion_design","choice_BBA"]
+    },
+   "Shaheed Mohtarma Benazir Bhutto Medical University": {
+       "sector":"public",
+       "district": ["Larkana"],
+       "discipline": ["choice_pharmacy","choice_MBBS","choice_BDS","choice_nursing"]
+    },
+   "Shaheed Zulfikar Ali Bhutto Institute of Science & Technology": {
+       "sector":"private",
+       "district": ["Hyderabad","Islamabad","Karachi","Larkana"],
+       "discipline": ["choice_BBA","choice_accounting_finance","choice_computer_science","choice_Software_engineering","choice_social_sciences","choice_media_science"]
+    },
+   "Shaheed Zulfiqar Ali Bhutto Medical University": {
+       "sector":"public",
+       "district": ["Islamabad"],
+       "discipline": ["choice_medical_sciences","choice_MBBS","choice_BDS"]
+    },
+  
+   "Shaheed Zulfiqar Ali Bhutto University of Law": {
+       "sector":"public",
+       "district": ["Karachi"],
+       "discipline": ["choice_law"]
+    },
+   "Shifa Tameer-e-Millat University": {
+       "sector":"private",
+       "district": ["Islamabad"],
+       "discipline": ["choice_MBBS","choice_Nursing","choice_Pharmacy","choice_DTP","choice_MT"]
+    },
+   "Shuhada-e-Army Public School University of Technology, Nowshera": {
+       "sector":"public",
+       "district": ["Nowshera"],
+       "discipline": ["choice_electrical_engineering","choice_mechanical_engineering","choice_electronics_engineering","choice_civil_engineering","choice_Information_engineering","choice_energy_engineering"]
+    },
+  "Sindh Agriculture University, Tandojam": {
+    "sector": "public",
+    "district": [ "Hyderabad" ],
+    "discipline": [ "choice_agriculture_engineering", "choice_veterinary_sciences", "choice_crop_production", "choice_crop_protection" ]
+  },
+  "Sindh Institute of Medical_Sciences": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_MBBS" ]
+  },
+  "Sindh Madresatul Islam University": {
+    "sector": "public",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_BBA", "choice_accounting_finance", "choice_computer_science", "choice_education", "choice_media_studies", "choice_environmental_sciences" ]
+  },
+  "Sir Syed (Case) Institute Of Technology, Islamabad": {
+    "sector": "private",
+    "district": [ "Islamabad" ],
+    "discipline":["choice_Computer_Science","choice_Electrical_Engineering","choice_Software_Engineering","choice_Business_Administration","choice_accounting_finance"]
+  },
+  "Sir Syed University of Engineering & Technology": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_BBA", "choice_architecture", "choice_biomedical_science", "choice_bioinformatics", "choice_civil_engineering", "choice_computer_science", "choice_electrical_engineering", "choice_electronic_engineering", "choice_software_engineering", "choice_information_technology", "choice_telecommunication" ]
+  },
+  "Sukkur Institute Of Business Administration": {
+    "sector": "public",
+    "district": [ "Sukkur" ],
+    "discipline": [ "choice_Business_Administration", "choice_Computer_Science", "choice_accounting_finance", "choice_Mathematics", "choice_Electrical_Engineering", "choice_Education" ]
+  },
+  "Textile Institute of Pakistan": {
+    "sector": "private",
+    "district": [ "Karachi" ],
+    "discipline": [ "choice_BBA", "choice_industrial_manufacturing", "choice_textile_design", "choice_textile_science", "choice_fashion_design", "choice_textile_management" ]
+  },
+  "The Superior College": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Electrical_System", "choice_Mass_Communication", "choice_Computer_Science", "choice_Data_Science", "choice_Software_Engineering", "choice_Information_Technology", "choice_accounting_finance", "choice_Commerce", "choice_Engineering_Technology", "choice_Fine_Arts", "choice_architecture", "choice_Interior_and_Textile_Design", "choice_Medical_Imaging_Technology", "choice_Medical_Lab_Science", "choice_Human_Nutrition_and_Dietetics", "choice_Microbiology_and_Biotechnology", "choice_Biochemistry", "choice_MBBS", "choice_Aviation_Management", "choice_Business_Management", "choice_Hospitality_and_Tourism_Management", "choice_Optometry", "choice_Molecular_Biology" ]
+  },
+   "The University of Agriculture Peshawar": {
+       "sector":"public",
+       "district": ["Peshawar"],
+       "discipline": ["choice_nutrition_sciences","choice_crop_production","choice_biomedical_science","choice_veterinary_sciences","choice_crop_protection","choice_rural_social_science","choice_biotechnology","choice_development_studies","choice_management_sciences"]
+    },
+   "The University of Faisalabad": {
+       "sector":"private",
+       "district": ["Faisalabad"],
+       "discipline": ["choice_nursing","choice_interior_design","choice_BBA","choice_english",
+           "choice_islamic_science","choice_computer_science","choice_engineering","choice_medical_science","choice_aviation_management","choice_optometry","choice_medical_lab_sciences","choice_dermetology_sciences","choice_public_health","choice_NUTRITIONAL_SCIENCES","choice_public_policy"]
+    },
+  "The University Of Lakki Marwat": {
+    "sector": "public",
+    "district": [ "Lakki Marwat" ],
+    "discipline": [ "choice_Business_Administration", "choice_Computer_Science", "choice_Economics", "choice_Education", "choice_Political_Science", "choice_Software_Engineering", "choice_Zoology" ]
+    },
+   "The Women University": {
+       "sector":"public",
+       "district": ["Multan"],
+       "discipline": ["choice_social_sciences","choice_arts","choice_economics","choice_commerce",
+           "choice_management_science","choice_life_sciences","choice_religion","choice_languages","choice_pure_sciences" ]
+    },
+   "University of Agriculture": {
+       "sector":"public",
+       "district": ["Faisalabad"],
+       "discipline": ["choice_agriculture_sciences"]
+    },
+   "University of Azad Jammu & Kashmir": {
+       "sector":"public",
+       "district": ["Muzaffarabad"],
+       "discipline": ["choice_pure_sciences","choice_natural_sciences","choice_social_sciences","choice_english","choice_education","choice_art","choice_engineering","choice_management_science","choice_law","choice_islamic_studies","choice_Kashmir_studies","choice_psychology","choice_sociology","choice_languages","choice_health_and_medical_sciences"]
+    },
+   "University of Balochistan": {
+       "sector":"public",
+       "district": ["Quetta"],
+       "discipline": ["choice_management_sciences","choice_social_sciences","choice_education_and_humanities","choice_literature","choice_language","choice_basic_sciences","choice_life_sciences","choice_earth_science","choice_enviromental_science","choice_pharmacy","choice_health"]
+    },
+  "University of Baltistan, Skardu": {
+    "sector": "public",
+    "district": [ "Skardu" ],
+    "discipline": [ "choice_business_management", "choice_biological_sciences", "choice_computer_science", "choice_educational_development", "choice_languages", "choice_cultural_studies" ]
+  },
+  "University of Buner": {
+    "sector": "public",
+    "district": [ "Bunair" ],
+    "discipline": [ "choice_Zoology", "choice_Urdu", "choice_Electronics", "choice_Computer_Science", "choice_Psychology", "choice_Economics", "choice_Political_Science", "choice_Business_Administration", "choice_Botany", "choice_English" ]
+  },
+   "University of Central Punjab": {
+       "sector":"private",
+       "district": ["Lahore"],
+       "discipline": ["choice_business_management","choice_accounting_finance","choice_Information_Technology","choice_engineering","choice_social_sciences","choice_pharmacy","choice_media_studies","choice_life_sciences","choice_pure_sciences"]
+    },
+  "University Of Chitral": {
+    "sector": "public",
+    "district": [ "Chitral" ],
+    "discipline": [ "choice_Botany", "choice_Computer_Science", "choice_Economics", "choice_Education", "choice_English", "choice_Management_Science", "choice_Political_Science", "choice_Sociology", "choice_Tourism_and_Hotel_Management", "choice_Urdu", "choice_Zoology" ]
+  },
+  
+   "University of Education": {
+       "sector":"public",
+       "district": ["Lahore","Okara","DG Khan","Faisalabad","Joharabad","Multan","Vehari","Attock"],
+       "discipline": ["choice_business_management","choice_education","choice_botany","choice_chemistry","choice_economics","choice_english","choice_information_technology","choice_mathematics","choice_physics","choice_zoology"]
+    },
+   "University of Engineering & Technology": {
+       "sector":"public",
+       "district": ["Lahore","Peshawar","Mardan","Rawalpindi","Kalashah Kako","Faisalabad","Gujranwala","Narrowal","Chakwal","Abbottabad","Bannu","Kohat"],
+       "discipline": ["choice_agriculture_engineering","choice_architecture","choice_basic_sciences_and_islamiat","choice_chemical_engineering","choice_civil_engineering","choice_Computer_science","choice_Information_Technology","choice_electrical_engineering","choice_industrial_engineering","choice_mechanical_engineering","choice_mining_engineering"]
+    },
+   "University of FATA": {
+       "sector":"public",
+       "district": ["Kohat"],
+       "discipline": ["choice_computer_science","choice_management_science","choice_sociology","choice_political_science","choice_mathematics","choice_english","choice_geology"]
+    },
+   "University of Gujrat": {
+       "sector":"public",
+       "district": ["Gujrat","Lahore","Sialkot","Narrowal","Rawalpindi"],
+       "discipline": ["choice_computer_science","choice_information_technology","choice_arts","choice_sciences","choice_engineering_and_technology_science","choice_management_and_administrative_sciences","choice_social_sciences","choice_design_and_architecture"]
+    },
+   "University of Haripur": {
+       "sector":"public",
+       "district": ["Haripur"],
+       "discipline": ["choice_computer_science","choice_software_engineering","choice_BBA","choice_economics","choice_environmental_science","choice_agriculture_sciences","choice_education","choice_psychology","choice_microbiology","choice_Forestry","choice_islamic_and_religious_studies","choice_pure_and_applied_math"]
+    },
+   "University of Health Sciences": {
+       "sector":"public",
+       "district": ["Lahore"],
+       "discipline": ["choice_health_science","choice_medical_sciences"]
+    },
+   "University of Karachi": {
+       "sector":"public",
+       "district": ["Karachi"],
+       "discipline": ["choice_education","choice_engineering","choice_islamic_studies","choice_law","choice_management_science","choice_medicine","choice_pharmacy","choice_science","choice_social_sciences"]
+    },
+  "University of Kotli Azad Jammu and Kashmir": {
+    "sector": "public",
+    "district": [ "Kotli" ],
+    "discipline": [ "choice_education", "choice_BBA", "choice_commerce", "choice_english", "choice_computer_science", "choice_information_technology", "choice_software_engineering", "choice_botany", "choice_physics", "choice_zoology", "choice_chemistry", "choice_economics", "choice_mathematics", "choice_biotechnology", "choice_banking_and_finance" ]
+  },
+  "University of Lahore": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_Computer_Science_and_IT", "choice_Civil_Engineering", "choice_Law", "choice_Electrical_Engineering", "choice_Electronic_and_Electrical_System", "choice_Molecular_Biology_and_Biotechnology", "choice_Business_Administration", "choice_Economics", "choice_Nursing", "choice_Mechanical_Engineering", "choice_Pharmacy", "choice_Creative_Arts", "choice_Radiological_Science_and_Medical_Imaging", "choice_Technology", "choice_Dentistry", "choice_Computer_Engineering", "choice_Medicine", "choice_English_Language_and_Literature", "choice_Mathematics_and_Statistics", "choice_Physics", "choice_Architecture", "choice_Clinical_Lab_Technology", "choice_Diet_and_Nutritional_Sciences", "choice_Physical_Therapy" ]
+  },
+   "University of Loralai": {
+       "sector":"public",
+       "district": ["Loralai"],
+       "discipline": ["choice_management_science","choice_commerce","choice_education","choice_computer_science"]
+    },
+   "University of Malakand": {
+       "sector":"public",
+       "district": ["Malakand"],
+       "discipline": ["choice_archaelogy","choice_biotechnology","choice_botany","choice_chemistry","choice_commerce","choice_computer_science","choice_economics","choice_education","choice_english","choice_information_technology","choice_geology","choice_islamic_studies","choice_mass_communication","choice_law","choice_mathematics","choice_pashto","choice_Pharmacy","choice_physics","choice_political_science","choice_psychology","choice_social_work","choice_sociology","choice_software_engineering","choice_statistics","choice_tourism_and_hotel_management","choice_zoology"]
+    },
+   "University of Management & Technology": {
+       "sector":"private",
+       "district": ["Lahore","Sialkot"],
+       "discipline": ["choice_social_sciences","choice_Systems_and_Technology","choice_architecture","choice_textile_and_design","choice_commerce_and_accountancy","choice_health_sciences","choice_aviation_studies","choice_governance","choice_law","choice_policy","choice_engineering","choice_communication_studies","choice_cultural_studies","choice_basic_sciences","choice_business","choice_economics","choice_food_and_agricultural_sciences"]
+    },
+   "University of Okara": {
+       "sector":"public",
+       "district": ["Okara"],
+       "discipline": ["choice_computer_science","choice_education","choice_research","choice_english","choice_management_sciences","choice_mathematics","choice_molecular_biology","choice_chemistry","choice_law","choice_botany","choice_zoology"]
+    },
+  "University of Peshawar": {
+    "sector": "public",
+    "district": [ "Peshawar" ],
+    "discipline": [ "choice_arts", "choice_humanities", "choice_Islamic_studies", "choice_life_sciences", "choice_environmental_sciences", "choice_management_sciences", "choice_information_sciences", "choice_PHYSICAL_SCIENCE", "choice_social_sciences" ]
+  },
+  "University of Poonch": {
+    "sector": "public",
+    "district": [ "Poonch" ],
+    "discipline": [ "choice_Agriculture", "choice_Basic_and_Applied_sciences", "choice_Engineering_and_Technology", "choice_Medical_and_Health_Sciences", "choice_Management,_Humanities_and_Social_Sciences,choice_Veterinary_and_Animal_Sciences" ]
+  },
+   "University of Sahiwal": {
+       "sector":"public",
+       "district": ["Sahiwal"],
+       "discipline": ["choice_computer_science","choice_chemistry","choice_physics","choice_BBA","choice_economics","choice_applied_psychology","choice_english","choice_law"]
+    },
+   "University of Sargodha": {
+       "sector":"public",
+       "district": ["Sargodha","Lahore","Bhakkar","Mianwali","Mandi Bahauddin","Gujranwala","Faisalabad"],
+       "discipline": ["choice_sciences","choice_agriculture","choice_medical_sciences","choice_health_sciences","choice_humanities","choice_pharmacy","choice_social_sciences","choice_engineering","choice_technology"]
+    },
+   "University of Science & Technology": {
+       "sector":"public",
+       "district": ["Bannu"],
+       "discipline": ["choice_computer_science","choice_basic_sciences","choice_social_sciences","choice_management_sciences","choice_economics","choice_mathematics","choice_engineering"]
+    },
+   "University of Sialkot, Sialkot": {
+       "sector":"private",
+       "district": ["Sialkot"],
+       "discipline": ["choice_computer_science","choice_Information_Technology","choice_administration_sciences","choice_management_sciences","choice_social_sciences","choice_allied_health_sciences","choice_textile_designing","choice_fashion_designing","choice_engineering","choice_architecture"]
+    },
+   "University of Sindh": {
+       "sector":"public",
+       "district": ["Jamshoro","Mirpur Khas","Badin","Dadu"],
+       "discipline": ["choice_commerce","choice_arts","choice_business_administration","choice_education","choice_islamic_studies","choice_law","choice_natural_sciences","choice_pharmacy","choice_social_sciences"]
+    },
+  "University of South Asia": {
+    "sector": "private",
+    "district": [ "Lahore" ],
+    "discipline": [ "choice_computer_science", "choice_software_engineering", "choice_media_studies", "choice_law", "choice_architecture", "choice_fashion_design", "choice_interior_design", "choice_textile_design", "choice_life_sciences", "choice_health_sciences", "choice_civil_engineering", "choice_electrical_engineering" ]
+  },
+  "University Of Sufism And Modern Sciences, Bhitshah Sindh": {
+    "sector": "public",
+    "district": [ "Bhit Shah" ],
+    "discipline":["choice_Business_Administration","choice_Computer_Science","choice_Commerce","choice_Education"]
+  },
+   "University of Swabi": {
+       "sector":"public",
+       "district": ["Swabi"],
+       "discipline": ["choice_computer_science","choice_agriculture","choice_economics","choice_english","choice_law","choice_geology","choice_management_sciences","choice_microbiology","choice_pharmacy","choice_sociology","choice_zoology","choice_chemistry","choice_statistics","choice_physics","choice_mathematics","choice_law","choice_environmental_science","choice_mass_communication","choice_political_science","choice_psychology","choice_education","choice_tourism_and_hotel_management","choice_urdu","choice_pashto"]
+    },
+   "University of Swat": {
+       "sector":"public",
+       "district": ["Swat"],
+       "discipline": ["choice_computer_science","choice_material_science","choice_physical_science","choice_english_and_foreign_languages","choice_law_and_shariah","choice_economics_and_development_studies","choice_environmental_sciences","choice_psychology","choice_social_studies","choice_gender_studies","choice_media_studies","choice_agriculture_and_forestry","choice_animal_sciences","choice_biotechnology","choice_earth_sciences","choice_education","choice_management_science","choice_biodiversity","choice_chemical_science","choice_culture_tourism_hospitality_management","choice_forensic_science","choice_islamic_and_arabic_studies"]
+    },
+   "University of Turbat": {
+       "sector":"public",
+       "district": ["Turbat"],
+       "discipline": ["choice_computer_science","choice_chemistry","choice_commerce","choice_economics","choice_law_and_shariah","choice_education","choice_english","choice_balochi_language_and_culture","choice_law","choice_management_sciences","choice_natural_sciences","choice_basic_sciences","choice_political_science"]
+    },
+   "University of Veterinary & Animal Sciences": {
+       "sector":"public",
+       "district": ["Lahore","Patoki","Jhang"],
+       "discipline": ["choice_veterinary_science","choice_animal_science","choice_bioscience"]
+    },
+   "University of Wah": {
+       "sector":"private",
+       "district": ["Rawalpindi"],
+       "discipline": ["choice_computer_science","choice_basic_sciences","choice_management_science","choice_social_sciences","choice_humanities","choice_engineering"]
+    },
+   "University of the Punjab": {
+       "sector":"public",
+       "district": ["Lahore","Gujranwala","Jhelum"],
+       "discipline": ["choice_english","choice_french","choice_philosophy","choice_political_sciences","choice_social_work","choice_communication_studies","choice_social_and_cultural_studies","choice_gender_studies","choice_commerce","choice_economics","choice_management_science","choice_BBA","choice_education","choice_textile_engineering","choice_industrial_engineering","choice_electrical_engineering","choice_material_engineering","choice_islamic_studies","choice_law","choice_sciences","choice_life_sciences","choice_art_and_design","choice_commerce","choice_pharmacy","choice_computer_science","choice_software_engineering"]
+    },
+   "Virtual University of Pakistan": {
+       "sector":"public",
+       "district": ["Lahore","Islamabad","Rawalpindi","DG Khan","Faisalabad","Gujranwala","Multan","Sahiwal","Badin","Ghotki","Karachi","Pashin","Peshawar","Muzaffargarh","Hyderabad","Jhelum"],
+       "discipline": ["choice_arts","choice_computer_science","choice_information_technology","choice_education","choice_management","choice_science_and_technology"]
+    },
+   "Women University Mardan": {
+       "sector":"public",
+       "district": ["Mardan"],
+       "discipline": ["choice_psychology","choice_business_and_economics","choice_political_science","choice_microbiology","choice_zoology","choice_nutrition","choice_biotechnology","choice_english","choice_urdu","choice_Islamic_studies"]
+    },
+   "Women University of Azad Jammu & Kashmir": {
+       "sector":"public",
+       "district": ["Bagh"],
+       "discipline": ["choice_management_sciences","choice_economics","choice_education","choice_sports_SCIENCES","choice_international_relations","choice_zoology","choice_mathematics","choice_biotechnology","choice_botany","choice_chemistry","choice_computer_science","choice_physics"]
+    },
+   "Women University, Swabi": {
+       "sector":"public",
+       "district": ["Swabi"],
+       "discipline": ["choice_art_design_and_culture","choice_economics","choice_english","choice_arabic_and_islamic_studies","choice_political_science","choice_zoology","choice_psychology","choice_pakistan_studies","choice_botany","choice_chemistry","choice_computer_science","choice_physics","choice_mathematics","choice_urdu","choice_social_work","choice_management_science","choice_law","choice_statistics","choice_mass_communication"]
+    },
+   "Zia-ud-Din University": {
+       "sector":"private",
+       "district": ["Karachi"],
+       "discipline": ["choice_health_sciences","choice_liberal_arts","choice_human_sciences","choice_eastern_medicine_and_natural_sciences","choice_engineering_and_technology","choice_pharmacy","choice_media_sciences","choice_education"]
+    },
+   "Brains Institute Peshawar": {
+       "sector":"private",
+       "district": ["Peshawar"],
+       "discipline": ["choice_technology","choice_electrical_engineering","choice_civil_engineering","choice_petroleum_engineering","choice_electronic_engineering","choice_management_sciences","choice_pharmacy","choice_accounting_finance","choice_BBA","choice_computer_science","choice_software_engineering","choice_basic_sciences_and_humanities"]
+    }
+ }
