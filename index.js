@@ -165,7 +165,7 @@ function registerform(event) {
                     if (res.data[0]) {
                         Swal.fire({
                             title: 'Error!',
-                            text: res.data[0],
+                            text: "Please check if this company exists",
                             icon: 'error',
                             confirmButtonText: 'OK',
                             confirmButtonColor: "#232F3E",
@@ -212,22 +212,19 @@ function readTextFile(file, callback) {
     }
     rawFile.send(null);
 }
+
 window.addEventListener('DOMContentLoaded', (event) => {
-
-
-
     readTextFile("./assets/csc.json", function (text) {
         var data = JSON.parse(text);
-        let country = Object.keys(data)
         let countryElem = document.getElementById('rec_country_id');
-        countryElem.innerHTML = ""
-        country.map(coutryName => {
-            countryElem.innerHTML += `<option value="${coutryName}">${coutryName}</option>`
-        })
-        document.querySelector(`select[name='rec_country']`).options[0].innerText = "Select Country"
-    })
+        countryElem.innerHTML = "";
+        countryElem.innerHTML += `<option value="Pakistan" selected>Pakistan</option>`;
 
-})
+        // Trigger state and city population for Pakistan
+        
+        handleRecCountryChange({ target: { value: 'Pakistan' } });
+    });
+});
 function handleCountryChange(event) {
     let counntry_name = event.target.value;
     readTextFile("./assets/csc.json", function (text) {
@@ -439,6 +436,7 @@ function forgotPassword() {
 
 
     let email = document.getElementById('login_email').value;
+    let company_code = document.getElementById('login_company_code').value
     let loading = document.getElementById('loading_api2');
     let forgot_button = document.getElementById("forgot_button");
 
@@ -447,6 +445,14 @@ function forgotPassword() {
         Swal.fire({
             text: 'Please provide your registered email!',
             // icon: 'error',
+            confirmButtonText: 'OK',
+            confirmButtonColor: "#232F3E"
+        })
+        return;
+    }
+    if (company_code == "") {
+        Swal.fire({
+            text: 'Please provide your comapany code',
             confirmButtonText: 'OK',
             confirmButtonColor: "#232F3E"
         })
