@@ -221,7 +221,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         countryElem.innerHTML += `<option value="Pakistan" selected>Pakistan</option>`;
 
         // Trigger state and city population for Pakistan
-        
+
         handleRecCountryChange({ target: { value: 'Pakistan' } });
     });
 });
@@ -452,7 +452,7 @@ function forgotPassword() {
     }
     if (company_code == "") {
         Swal.fire({
-            text: 'Please provide your comapany code',
+            text: 'Please provide your company code',
             confirmButtonText: 'OK',
             confirmButtonColor: "#232F3E"
         })
